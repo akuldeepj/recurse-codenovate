@@ -3,7 +3,7 @@ import Image from "next/image";
 import Preloader from "@/components/Preloader";
 import { AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from "react";
-import { GridBackgroundDemo } from "@/components/ui/hero";
+import { GridPatternLinearGradient } from "@/components/ui/hero";
 import { TimelineDemo } from "@/components/timeline";
 import { WobbleCardDemo } from "@/components/rules";
 import { AccordionDemo } from "@/components/faq";
@@ -29,7 +29,7 @@ export default function Home() {
     <>
       <AnimatePresence mode='wait'>
       {isLoading && <Preloader />}
-      <GridBackgroundDemo />
+      <GridPatternLinearGradient />
       <TimelineDemo />
       <WobbleCardDemo />
       <AccordionDemo />

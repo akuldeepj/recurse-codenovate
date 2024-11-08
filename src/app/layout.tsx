@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import FooterComponent from "@/components/ui/footer";
+import GridPattern from "@/components/ui/grid-pattern";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
