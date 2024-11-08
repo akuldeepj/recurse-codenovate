@@ -5,6 +5,7 @@ import { AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from "react";
 import { GridBackgroundDemo } from "@/components/ui/hero";
 import { TimelineDemo } from "@/components/timeline";
+import { WobbleCardDemo } from "@/components/rules";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,6 +31,7 @@ export default function Home() {
       {isLoading && <Preloader />}
       <GridBackgroundDemo />
       <TimelineDemo />
+      <WobbleCardDemo />
       </AnimatePresence>
       </>
   );

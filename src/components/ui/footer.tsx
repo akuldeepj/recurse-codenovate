@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Twitter, Linkedin, Github,Instagram,Computer } from 'lucide-react'
+import { Twitter, Github,Instagram,Computer, Linkedin } from 'lucide-react'
 import { TextHoverEffect } from '@/components/ui/text-hover-effect'
 
 export default function FooterComponent() {
@@ -31,13 +31,13 @@ export default function FooterComponent() {
 
             </div>
             <div className="space-y-4">
-              <Link href="#" className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
+              <Link href="https://www.instagram.com/recurse.official" target='_blank' className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
                 <Instagram size={20} />
                 <span>Instagram</span>
               </Link>
-              <Link href="#" className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
+              <Link href="https://discord.gg/Pg6urJfX" target='_blank' className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
                 <Linkedin size={20} />
-                <span>LinkedIn</span>
+                <span>Discord</span>
               </Link>
               <Link href="#" className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
                 <Computer size={20} />
