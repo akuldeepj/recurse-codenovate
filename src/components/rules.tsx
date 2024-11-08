@@ -6,7 +6,7 @@ import { WobbleCard } from "@/components/ui/wobble-card";
 export function WobbleCardDemo() {
   return (
     <>
-    <h1 className="text-4xl sm:text-6xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-700 to-neutral-400  my-8 text-center">
+    <h1 className="text-4xl sm:text-6xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-700 to-neutral-400  my-8 text-center" id="rules">
         Hackathon Rules
       </h1>
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-[90vw] px-4 sm:px-6 lg:px-8">

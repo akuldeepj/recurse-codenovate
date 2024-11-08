@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { GridBackgroundDemo } from "@/components/ui/hero";
 import { TimelineDemo } from "@/components/timeline";
 import { WobbleCardDemo } from "@/components/rules";
-
+import { AccordionDemo } from "@/components/faq";
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -32,6 +32,7 @@ export default function Home() {
       <GridBackgroundDemo />
       <TimelineDemo />
       <WobbleCardDemo />
+      <AccordionDemo />
       </AnimatePresence>
       </>
   );
