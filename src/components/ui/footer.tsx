@@ -12,7 +12,7 @@ export default function FooterComponent() {
           <div className="mb-8 md:mb-0">
             <div className="flex items-center space-x-2 mb-4 text-xl">
               <div className="w-6 h-6 bg-gray-800 dark:bg-gray-200 rounded-sm"></div>
-              <span className="font-semibold">FLARE</span>
+              <span className="font-semibold">Codenovate</span>
             </div>
             {/* <p className="text-sm text-gray-600 dark:text-gray-400">All rights reserved</p> */}
             <p className="text-sm text-gray-600 dark:text-gray-400 italic font-semibold">
@@ -26,7 +26,7 @@ export default function FooterComponent() {
               <Link href="#" className="block hover:text-gray-600 dark:hover:text-gray-300">Contact</Link>
             </div> */}
             <div className="space-y-4">
-              <Link href="#" className="block hover:text-gray-600 dark:hover:text-gray-300">Problem Statements</Link>
+              <Link href="/ps" className="block hover:text-gray-600 dark:hover:text-gray-300">Problem Statements</Link>
               <Link href="#faq" className="block hover:text-gray-600 dark:hover:text-gray-300">FAQ</Link>
               <Link href="#rules" className="block hover:text-gray-600 dark:hover:text-gray-300">Rules</Link>
 
@@ -48,7 +48,7 @@ export default function FooterComponent() {
           </div>
         </div>
         <div className="mt-12 border-t border-gray-300 dark:border-gray-700 pt-8">
-          <TextHoverEffect text="FLARE" />
+          <TextHoverEffect text="Codenovate" />
         </div>
         <div className="mt-4 text-center">
           <p className="text-lg text-gray-600 dark:text-gray-400 italic font-semibold">

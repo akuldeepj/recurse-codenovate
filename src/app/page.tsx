@@ -7,6 +7,9 @@ import { GridPatternLinearGradient } from "@/components/ui/hero";
 import { TimelineDemo } from "@/components/timeline";
 import { WobbleCardDemo } from "@/components/rules";
 import { AccordionDemo } from "@/components/faq";
+import images from "./images.json";
+import BoxRevealDemo from "@/components/test";
+
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -29,7 +32,8 @@ export default function Home() {
     <>
       <AnimatePresence mode='wait'>
       {isLoading && <Preloader />}
-      <GridPatternLinearGradient />
+      <BoxRevealDemo />
+      {/* <GridPatternLinearGradient /> */}
       <TimelineDemo />
       <WobbleCardDemo />
       <AccordionDemo />

@@ -10,7 +10,7 @@ import GradualSpacing from "./ui/gradual-spacing";
 export function BorderBeamDemo() {
   return (
     <>
-    <div className="relative flex h-screen w-screen flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-black md:shadow-xl">
+    <div className="relative flex h-full w-screen flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-black md:shadow-xl">
         <GridPattern width={40} height={40} x={-1} y={-1} className={cn("[mask-image:radial-gradient(60vw_circle_at_center,white,transparent)]")} />
 
         <h1 className="text-4xl font-bold text-center my-8">RECURSE PRESENTS</h1>
@@ -45,10 +45,13 @@ export function BorderBeamDemo() {
           <p className="text-lg text-gray-500">Scroll down for more</p>
           <ChevronDown className="animate-bounce" size={32} />
         </div>
+        <div className='md:h-[40vh] flex items-center justify-center h-[10vh]'>
         <GradualSpacing
-          className="font-display text-center text-2xl font-bold tracking-[-0.1em] text-black dark:text-white md:text-5xl md:leading-[5rem]"
+          className="font-display text-center text-sm font-bold tracking-[-0.1em] text-black dark:text-white md:text-5xl md:leading-[5rem]"
           text="Problem Statements will be released soon!"
         />
+      </div>
+        <div className="py-10"></div>
     </div>
     </>
   );
