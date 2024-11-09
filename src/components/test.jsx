@@ -65,7 +65,7 @@ export default function BoxRevealDemo() {
         </BoxReveal>
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
           <p className="text-[3.5rem] font-semibold">
-            Code Chase by 
+            Codenovate by 
             {/* <span className="text-[#5046e6]">Recurse</span> */}
             <span className="text-primary"> Recurse</span>
           </p>
