@@ -50,12 +50,14 @@ export default function BoxRevealDemo() {
       <BoxReveal boxColor={"#5046e6"} duration={0.5}>
           <Image 
           src={'/Images/recurse.png'}
+          alt="Recurse"
           width={200}
           height={200}
           className="dark:block hidden"
           />
           <Image 
           src={'/Images/recurse-black.png'}
+          alt="Recurse"
           width={200}
           height={200}
           className="dark:hidden block"
