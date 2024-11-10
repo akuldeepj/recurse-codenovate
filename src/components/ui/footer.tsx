@@ -3,6 +3,8 @@
 import Link from 'next/link'
 import { Twitter, Github,Instagram,Computer, Linkedin } from 'lucide-react'
 import { TextHoverEffect } from '@/components/ui/text-hover-effect'
+import { RiDiscordLine } from "react-icons/ri";
+
 
 export default function FooterComponent() {
   return (
@@ -16,7 +18,7 @@ export default function FooterComponent() {
             </div>
             {/* <p className="text-sm text-gray-600 dark:text-gray-400">All rights reserved</p> */}
             <p className="text-sm text-gray-600 dark:text-gray-400 italic font-semibold">
-            A <span className="underline text-[#A6FF04]">Recurse</span> initiative
+            A <Link className="underline text-[#A6FF04]" href={"https://www.instagram.com/recurse.official"} target='_blank'>Recurse</Link> initiative
           </p>
           </div>
           <div className="grid grid-cols-2 gap-8">
@@ -36,8 +38,8 @@ export default function FooterComponent() {
                 <Instagram size={20} />
                 <span>Instagram</span>
               </Link>
-              <Link href="https://discord.gg/Pg6urJfX" target='_blank' className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
-                <Linkedin size={20} />
+              <Link href="https://discord.gg/FGh79byf" target='_blank' className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
+                <RiDiscordLine size={20} />
                 <span>Discord</span>
               </Link>
               <Link href="#" className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
@@ -52,7 +54,7 @@ export default function FooterComponent() {
         </div>
         <div className="mt-4 text-center">
           <p className="text-lg text-gray-600 dark:text-gray-400 italic font-semibold">
-            Made with <span className="text-red-500">♥</span> by <span className="underline">Recurse</span>
+            Made with <span className="text-red-500">♥</span> by <Link href={"https://www.instagram.com/recurse.official"} target='_blank'><span className="underline">Recurse</span></Link>
           </p>
         </div>
       </div>
