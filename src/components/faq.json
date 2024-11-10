@@ -1,28 +1,53 @@
 [
-    {
+  {
       "id": "item-1",
-      "question": "What is the schedule for the hackathon?",
-      "answer": "The hackathon starts at 9 AM and ends at 9 AM the following day. Check the event page for detailed schedules."
+      "question": "How can I participate in Codenovate?",
+      "answer": "You can participate in this competition by clicking on the 'Register' button in the top right corner of this page."
     },
-    {
+  {
       "id": "item-2",
-      "question": "Are there any themes or tracks?",
-      "answer": "Yes, participants can choose from themes like AI, sustainability, and fintech. More details are available on the registration page."
-    },
+      "question": "Is Codenovate open to students from all universities and courses?",
+      "answer": "Yes, Codenovate is open to students pursuing B.Tech/B.E. programs across ALL engineering colleges in India (Batch 2025, 2026, 2027 & 2028)"
+    }, 
     {
       "id": "item-3",
-      "question": "How are the projects judged?",
-      "answer": "Projects are judged based on innovation, impact, and technical execution. The judging panel includes industry experts."
+      "question": "What should I bring to the event?",
+      "answer": "Participants should bring their own laptops, chargers, and any tools or software they may need to work on their projects."
     },
-    {
+  {
       "id": "item-4",
-      "question": "Can I participate remotely?",
-      "answer": "No, the hackathon is in-person and will be held at Keshav Memorial Institute of Technology, Hyderabad."
+      "question": "Is there a registration fee for participating in this competition?",
+      "answer": "There is no registration fee for Round 1 (Aptitude Round/Quiz). However, there is a registration fee of ₹500 for Round 2 - Idea Submission Round."
     },
-    {
-      "id": "item-5",
-      "question": "What are the prizes?",
-      "answer": "There will be cash prizes for the top 3 teams."
+      {
+    "id": "item-5",
+    "question": "Is transportation available?",
+    "answer": "No, transportation will not be provided for the participants."
+  },
+  {
+    "id": "item-6",
+    "question": "Will food be provided during the event?",
+    "answer": "Yes, food and refreshments will be provided throughout the event for all participants."
+  },
+  {
+      "id": "item-7",
+      "question": "Can I participate individually if I don't have a team?",
+      "answer": "No, you cannot participate individually. Teams must consist of 3-4 members. If you don't have a team, we encourage you to team up with other participants or reach out to your friends or classmates to form a team."
+    },
+  {
+      "id": "item-8",
+      "question": "Is there a specific format for the PowerPoint submission in Round 2?",
+      "answer": "Detailed information about the PPT format will be sent to you via email after qualifying for Round 1."
+    },
+  {
+      "id": "item-9",
+      "question": "Is the competition online or offline?",
+      "answer": "Round 1 and Round 2 will be held online. Round 3 will be an offline event at KMIT."
+    },
+  {
+      "id": "item-10",
+      "question": "How can I contact you if I have more queries?",
+      "answer": "For any further queries, you can contact our Student Coordinators: SaiKrishna : 9392763643 or Jai Parmer : 9347654223. We’ll be happy to assist you!"
     }
-  ]
-  
+
+]
