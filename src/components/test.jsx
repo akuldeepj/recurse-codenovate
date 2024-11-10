@@ -82,7 +82,8 @@ export default function BoxRevealDemo() {
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
           <div className="mt-[1.5rem]">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium repudiandae explicabo ullam. Excepturi temporibus consequuntur facere, enim laborum adipisci ipsa, sint corrupti voluptatum soluta hic molestias nostrum incidunt vel. Accusamus?
+            Code. Create. Conquer. Transform Ideas into Reality at Codenovate 2024!
+Not a coding genius? No sweat! Dive in, level up, and make epic connections. Whether you&apos;re a rookie or a pro, this is your chance to turn wild ideas into real-world impact!
             </p>
           </div>
         </BoxReveal>
