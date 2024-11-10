@@ -27,8 +27,8 @@ export default function FooterComponent() {
             </div> */}
             <div className="space-y-4">
               <Link href="/ps" className="block hover:text-gray-600 dark:hover:text-gray-300">Problem Statements</Link>
-              <Link href="#faq" className="block hover:text-gray-600 dark:hover:text-gray-300">FAQ</Link>
-              <Link href="#rules" className="block hover:text-gray-600 dark:hover:text-gray-300">Rules</Link>
+                <Link href="/#faq" className="block hover:text-gray-600 dark:hover:text-gray-300">FAQ</Link>
+              <Link href="/#rules" className="block hover:text-gray-600 dark:hover:text-gray-300">Rules</Link>
 
             </div>
             <div className="space-y-4">

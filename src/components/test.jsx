@@ -107,7 +107,7 @@ export default function BoxRevealDemo() {
         </BoxReveal>
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
           <Link
-            href={"/register"}
+            href={"/"}
             className="z-10 flex my-3 items-center justify-center"
           >
             <AnimatedGradientText>

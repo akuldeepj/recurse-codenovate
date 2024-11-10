@@ -13,20 +13,28 @@ import BoxRevealDemo from "@/components/test";
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect( () => {
-    (
-      async () => {
-          const LocomotiveScroll = (await import('locomotive-scroll')).default
-          const locomotiveScroll = new LocomotiveScroll();
-
-          setTimeout( () => {
-            setIsLoading(false);
-            document.body.style.cursor = 'default'
-            window.scrollTo(0,0);
-          }, 2600)
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      setIsLoading(false);
+      document.body.style.cursor = 'default';
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
       }
-    )()
-  }, [])
+    } else {
+      (async () => {
+        const LocomotiveScroll = (await import('locomotive-scroll')).default;
+        const locomotiveScroll = new LocomotiveScroll();
+
+        setTimeout(() => {
+          setIsLoading(false);
+          document.body.style.cursor = 'default';
+          window.scrollTo(0, 0);
+        }, 2600);
+      })();
+    }
+  }, []);
 
   return (
     <>
