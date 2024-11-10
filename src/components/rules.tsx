@@ -20,7 +20,7 @@ export function WobbleCardDemo() {
               Team Formation
             </h2>
             <p className="mt-4 text-left text-base/6 text-neutral-200">
-              Teams can have a maximum of 5 members. All team members must be registered participants.
+              Teams can have a maximum of 4 members and minimum of 3. All team members must be registered participants.
             </p>
           </div>
           <Image
