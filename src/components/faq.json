@@ -7,7 +7,7 @@
   {
       "id": "item-2",
       "question": "Is Codenovate open to students from all universities and courses?",
-      "answer": "Yes, Codenovate is open to students pursuing B.Tech/B.E. programs across ALL engineering colleges in India (Batch 2025, 2026, 2027 & 2028)"
+      "answer": "Yes, Codenovate is open to students pursuing B.Tech/B.E./B.Sc programs across ALL engineering colleges in India (Batch 2025, 2026, 2027 & 2028)"
     }, 
     {
       "id": "item-3",
@@ -17,7 +17,7 @@
   {
       "id": "item-4",
       "question": "Is there a registration fee for participating in this competition?",
-      "answer": "There is no registration fee for Round 1 (Aptitude Round/Quiz). However, there is a registration fee of ₹500 for Round 2 - Idea Submission Round."
+      "answer": "There is no registration fee for Round 1 (Technical & Aptitude round). However, there is a registration fee of ₹400 for Round 2 - Idea Submission Round."
     },
       {
     "id": "item-5",
@@ -36,18 +36,22 @@
     },
   {
       "id": "item-8",
-      "question": "Is there a specific format for the PowerPoint submission in Round 2?",
-      "answer": "Detailed information about the PPT format will be sent to you via email after qualifying for Round 1."
+      "question": "Is there a specific format for the Idea Submission submission in Round 2?",
+      "answer": "Detailed information and instructions about the idea Submission round will be sent to you via email after qualifying Round 1."
     },
   {
       "id": "item-9",
       "question": "Is the competition online or offline?",
-      "answer": "Round 1 and Round 2 will be held online. Round 3 will be an offline event at KMIT."
+      "answer": "Round 1 and Round 2 will be held online. Finale will be an offline event at KMIT."
     },
-  {
+    {
       "id": "item-10",
-      "question": "How can I contact you if I have more queries?",
-      "answer": "For any further queries, you can contact our Student Coordinators: SaiKrishna : 9392763643 or Jai Parmer : 9347654223. We’ll be happy to assist you!"
+      "question": "Are cross-college teams allowed?",
+      "answer": "Yes, inter-college teams are allowed. Teams can consist of participants from different engineering colleges in Telangana."
+    },
+    {
+      "id": "item-11",
+      "question": "Are cross-year teams allowed?",
+      "answer": "Yes, teams can include participants from different years."
     }
-
 ]
