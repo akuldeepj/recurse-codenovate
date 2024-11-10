@@ -14,7 +14,7 @@ export function BorderBeamDemo() {
         <GridPattern width={40} height={40} x={-1} y={-1} className={cn("[mask-image:radial-gradient(60vw_circle_at_center,white,transparent)]")} />
 
         <h1 className="text-4xl font-bold text-center my-8">RECURSE PRESENTS</h1>
-        <div className='relative rounded-2xl p-2'>
+        {/* <div className='relative rounded-2xl p-2'>
           <img
             src="/Banner.png"
             alt="Hero Image"
@@ -26,7 +26,13 @@ export function BorderBeamDemo() {
             className="block w-[700px] rounded-[inherit] border object-contain shadow-lg dark:hidden"
           />
           <BorderBeam size={450} duration={12} delay={9} />
-        </div>
+        </div> */}
+        <div className="relative flex h-[70vh] w-[70vw] flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
+        Main Banner
+      </span>
+      <BorderBeam size={250} duration={12} delay={9} />
+    </div>
       <div className="z-10 flex my-5 items-center justify-center">
         <AnimatedGradientText>
           🖥️ <hr className="mx-2 h-4 w-px shrink-0 bg-gray-300" />{" "}
