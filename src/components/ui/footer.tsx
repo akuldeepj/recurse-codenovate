@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Twitter, Github,Instagram,Computer, Linkedin } from 'lucide-react'
 import { TextHoverEffect } from '@/components/ui/text-hover-effect'
 import { RiDiscordLine } from "react-icons/ri";
+import { FaDiscord } from "react-icons/fa";
 
 
 export default function FooterComponent() {
@@ -39,7 +40,7 @@ export default function FooterComponent() {
                 <span>Instagram</span>
               </Link>
               <Link href="https://discord.gg/FGh79byf" target='_blank' className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
-                <RiDiscordLine size={20} />
+                <FaDiscord size={20} />
                 <span>Discord</span>
               </Link>
               <Link href="#" className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
