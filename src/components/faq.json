@@ -1,0 +1,28 @@
+[
+    {
+      "id": "item-1",
+      "question": "What is the schedule for the hackathon?",
+      "answer": "The hackathon starts at 9 AM and ends at 9 AM the following day. Check the event page for detailed schedules."
+    },
+    {
+      "id": "item-2",
+      "question": "Are there any themes or tracks?",
+      "answer": "Yes, participants can choose from themes like AI, sustainability, and fintech. More details are available on the registration page."
+    },
+    {
+      "id": "item-3",
+      "question": "How are the projects judged?",
+      "answer": "Projects are judged based on innovation, impact, and technical execution. The judging panel includes industry experts."
+    },
+    {
+      "id": "item-4",
+      "question": "Can I participate remotely?",
+      "answer": "No, the hackathon is in-person and will be held at Keshav Memorial Institute of Technology, Hyderabad."
+    },
+    {
+      "id": "item-5",
+      "question": "What are the prizes?",
+      "answer": "There will be cash prizes for the top 3 teams."
+    }
+  ]
+  
