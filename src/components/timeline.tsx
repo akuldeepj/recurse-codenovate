@@ -8,7 +8,7 @@ export function TimelineDemo() {
       title: "Registrations Begin",
       content: (
         <div>
-          <p className="block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+          <p className="block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-300">
             Online - 14th Nov, 2024
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -34,7 +34,7 @@ export function TimelineDemo() {
       title: "Qualifying Quiz (Round 1)",
       content: (
         <div>
-          <p className="tblock text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+          <p className="tblock text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-300">
             Online - 22nd Nov, 2024
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -60,7 +60,7 @@ export function TimelineDemo() {
       title: "Idea Submission (Round 2)",
       content: (
         <div>
-          <p className="block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+          <p className="block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-300">
             Online - 26th Nov, 2024
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -86,7 +86,7 @@ export function TimelineDemo() {
       title: "Idea Evaluations and Results",
       content: (
         <div>
-          <p className="block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+          <p className="block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-300">
             Online - 28th Nov, 2024
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -112,7 +112,7 @@ export function TimelineDemo() {
       title: "Final Hackathon (Round 3)",
       content: (
         <div>
-          <p className="block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+          <p className="block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-300">
             Offline - 30th Nov, 2024
           </p>
           <div className="grid grid-cols-2 gap-4">

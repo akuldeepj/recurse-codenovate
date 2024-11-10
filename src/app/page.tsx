@@ -16,7 +16,11 @@ export default function Home() {
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {
-      setIsLoading(false);
+      // setIsLoading(false);
+      setTimeout(() => {
+        setIsLoading(false);
+        document.body.style.cursor = 'default';
+      }, 2600);
       document.body.style.cursor = 'default';
       const element = document.querySelector(hash);
       if (element) {
@@ -40,12 +44,13 @@ export default function Home() {
     <>
       <AnimatePresence mode='wait'>
       {isLoading && <Preloader />}
+      </AnimatePresence>
       <BoxRevealDemo />
       {/* <GridPatternLinearGradient /> */}
       <TimelineDemo />
       <WobbleCardDemo />
       <AccordionDemo />
-      </AnimatePresence>
+      
       </>
   );
 }

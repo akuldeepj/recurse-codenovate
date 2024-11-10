@@ -34,7 +34,7 @@ export default function BoxRevealDemo() {
 
 
   return (
-    <div className="relative flex size-full items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-black p-20 md:shadow-xl h-screen">
+    <div className="relative flex size-full items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-black p-20  h-screen">
     <div className="flex h-[100vh] w-[100vw] mob:flex-col items-center justify-center">
        <AnimatePresence mode='wait'>
         {/* {isLoading && <Preloader />} */}
