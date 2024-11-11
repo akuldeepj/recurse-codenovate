@@ -79,8 +79,7 @@ export default function HackathonLanding() {
             )}
           >
             <span className="mr-2">🚀</span>
-            Registe Now
-            <span className="ml-2">→</span>
+            Title Sponsor 
           </Link>
         </div>
 
@@ -92,9 +91,8 @@ export default function HackathonLanding() {
             "text-gray-900 dark:text-white"
           )}>
             Code{" "}
-            <span className="bg-purple-500 bg-clip-text text-transparent">
               Create
-            </span>{" "}
+            {" "}
             Conquer
             <br />
             in{" "}
@@ -127,6 +125,22 @@ export default function HackathonLanding() {
               </span>
               <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
             </AnimatedGradientText>
+            <Link
+            href={"/"}
+            className="z-10 flex mx-3 items-center justify-center"
+          >
+            <AnimatedGradientText>
+              🚀 <hr className="mx-2 h-8 w-[2px] shrink-0 bg-gray-300" />{" "}
+              <span
+                className={cn(
+                  `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`
+                )}
+              >
+                Register Now
+              </span>
+              <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+            </AnimatedGradientText>
+          </Link>
           </Link>
           
         </div>
