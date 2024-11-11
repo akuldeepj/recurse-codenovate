@@ -90,12 +90,12 @@ export default function HackathonLanding() {
             "sm:text-5xl md:text-6xl lg:text-7xl",
             "text-gray-900 dark:text-white"
           )}>
-            Code{" "}
-              Create
+            Code.{" "}
+              Create.
             {" "}
-            Conquer
+            Conquer.
             <br />
-            in{" "}
+            {/* in{" "} */}
             <span className="font-serif italic bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">Codenovate</span> 2024
           </h1>
 
