@@ -9,6 +9,7 @@ import { WobbleCardDemo } from "@/components/rules";
 import { AccordionDemo } from "@/components/faq";
 import images from "./images.json";
 import BoxRevealDemo from "@/components/test";
+import HackathonLanding from "@/components/hackathon-landing";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -45,7 +46,8 @@ export default function Home() {
       <AnimatePresence mode='wait'>
       {isLoading && <Preloader />}
       </AnimatePresence>
-      <BoxRevealDemo />
+      {/* <BoxRevealDemo /> */}
+      <HackathonLanding />
       {/* <GridPatternLinearGradient /> */}
       <TimelineDemo />
       <WobbleCardDemo />
