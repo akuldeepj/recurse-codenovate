@@ -105,7 +105,7 @@ export default function HackathonLanding() {
           <div className="mx-auto max-w-[800px] space-y-4">
             <p className="text-xl text-gray-600 dark:text-gray-300">
               Not a coding genius? No sweat! Dive in, level up, and make epic connections.
-              Whether you're a rookie or a pro, this is your chance to turn wild ideas into real-world impact!
+              Whether you&apos;re a rookie or a pro, this is your chance to turn wild ideas into real-world impact!
             </p>
           </div>
         </div>
