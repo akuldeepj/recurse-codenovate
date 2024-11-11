@@ -1,0 +1,23 @@
+.floatingIcon {
+    position: absolute;
+    animation: float 8s ease-in-out infinite;
+    opacity: 0.8;
+    z-index: 1;
+  }
+  
+  /* Set positions around the main content */   
+  .floating-icon-0 { top: 20%; left: 10%; }
+  .floating-icon-1 { top: 30%; right: 15%; }
+  .floating-icon-2 { bottom: 20%; left: 20%; }
+  .floating-icon-3 { bottom: 30%; right: 10%; }
+  .floating-icon-4 { top: 40%; left: 30%; }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px) translateX(0px);
+    }
+    50% {
+      transform: translateY(10px) translateX(10px);
+    }
+  }
+  
