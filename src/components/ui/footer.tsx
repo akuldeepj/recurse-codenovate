@@ -39,7 +39,7 @@ export default function FooterComponent() {
                 <Instagram size={20} />
                 <span>Instagram</span>
               </Link>
-              <Link href="https://discord.gg/FGh79byf" target='_blank' className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
+              <Link href="https://discord.gg/nmymK9V43d" target='_blank' className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
                 <FaDiscord size={20} />
                 <span>Discord</span>
               </Link>
