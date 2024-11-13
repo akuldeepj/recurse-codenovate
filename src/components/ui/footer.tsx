@@ -19,7 +19,7 @@ export default function FooterComponent() {
             </div>
             {/* <p className="text-sm text-gray-600 dark:text-gray-400">All rights reserved</p> */}
             <p className="text-sm text-gray-600 dark:text-gray-400 italic font-semibold">
-            A <Link className="underline text-[#A6FF04]" href={"https://www.instagram.com/recurse.official"} target='_blank'>Recurse</Link> initiative
+            A <Link className="underline text-[#A6FF04]" href={"https://www.instagram.com/recurse.official"} target='_blank'>Recurse</Link> initiative brought to you by PR
           </p>
           </div>
           <div className="grid grid-cols-2 gap-8">
