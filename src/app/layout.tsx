@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import FooterComponent from "@/components/ui/footer";
 import GridPattern from "@/components/ui/grid-pattern";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const geistSans = localFont({
@@ -39,6 +40,7 @@ export default function RootLayout({
       >
         <ThemeProvider enableSystem={true} attribute="class">
             {children}
+            <Analytics />
             <FooterComponent />
           </ThemeProvider>     
           </body>

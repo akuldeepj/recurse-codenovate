@@ -3,9 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import GridPattern from './ui/grid-pattern'
 import { cn } from '@/lib/utils'
-import Image from 'next/image'
-import { Motion } from '@/components/framer-motion'
-import images from './images.json'
+
 import { FaReact, FaNodeJs, FaPython, FaJs, FaDocker, FaRust, FaSwift, FaJava, FaPhp, FaHtml5, FaCss3Alt } from 'react-icons/fa'
 import { SiTypescript, SiGo, SiRuby, SiCsharp, SiCplusplus,SiKotlin } from 'react-icons/si'
 
@@ -106,7 +104,7 @@ export default function FuturisticCountdownTimer({ targetDate = "2023-12-31T23:5
           <div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {Object.entries(timeLeft).map(([unit, value]) => (
-                <div key={unit} className="bg-gray-800 rounded-2xl p-6 shadow-lg transform hover:scale-105 transition-all duration-300  relative overflow-hidden group">
+                <div key={unit} className="bg-gray-800 rounded-2xl p-6 shadow-lg transform  transition-all duration-300  relative overflow-hidden group">
                   <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                   <p className="text-5xl font-bold text-primary mb-2 relative z-10">{value}</p>
                   <p className="text-xl text-gray-400 capitalize relative z-10">{unit}</p>
