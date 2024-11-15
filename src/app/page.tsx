@@ -10,6 +10,7 @@ import { AccordionDemo } from "@/components/faq";
 import images from "./images.json";
 import BoxRevealDemo from "@/components/test";
 import HackathonLanding from "@/components/hackathon-landing";
+import CountdownTimer from '@/components/Timer';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -52,6 +53,7 @@ export default function Home() {
       <TimelineDemo />
       <WobbleCardDemo />
       <AccordionDemo />
+      <CountdownTimer targetDate={'2024-11-30T10:00:00+05:30'} />
       
       </>
   );

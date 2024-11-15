@@ -98,11 +98,13 @@ export default function FuturisticCountdownTimer({ targetDate = "2023-12-31T23:5
         <FloatingIcon key={index} {...icon} />
       ))}
       <div className="z-10 text-center p-8 rounded-3xl shadow-2xl">
+        <h2 className="text-6xl font-bold text-white mb-10">See you in 🔥</h2>
         {Object.keys(timeLeft).length === 0 ? (
           <h1 className="text-8xl font-extrabold text-neon-blue mb-8 animate-pulse">Time is up!</h1>
         ) : (
           <div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              
               {Object.entries(timeLeft).map(([unit, value]) => (
                 <div key={unit} className="bg-gray-800 rounded-2xl p-6 shadow-lg transform  transition-all duration-300  relative overflow-hidden group">
                   <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
