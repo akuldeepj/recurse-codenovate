@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from "next/link"
-import { ChevronRight, Code } from "lucide-react"
+import { ChevronRight, Code } from 'lucide-react'
 import { FaReact, FaNodeJs, FaPython, FaJs, FaDocker, FaJava, FaPhp, FaRust, FaSwift } from 'react-icons/fa'
 import { SiTypescript, SiKotlin, SiGo } from 'react-icons/si'
 import { cn } from '@/lib/utils'
@@ -26,6 +26,11 @@ const techIcons = [
   { Icon: FaRust, alt: 'Rust' },
   { Icon: FaSwift, alt: 'Swift' },
   { Icon: SiGo, alt: 'Go' },
+]
+
+const sponsors = [
+  { name: 'Tutorials Point', logo: '/Images/tp.png' },
+  { name: 'Student Tribe', logo: '/Images/ST.png' },
 ]
 
 function FloatingIcon({ Icon, alt, style }: IconType) {
@@ -95,7 +100,6 @@ export default function HackathonLanding() {
             {" "}
             Conquer.
             <br />
-            {/* in{" "} */}
             <span className="font-serif italic bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">Codenovate</span> 2024
           </h1>
 
@@ -110,22 +114,23 @@ export default function HackathonLanding() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-        <Link
+          {/* <Link
             href={"/ps"}
             className="z-10 flex my-3 items-center justify-center"
           >
-            {/* <AnimatedGradientText>
+            <AnimatedGradientText>
               📝 <hr className="mx-2 h-6 w-[0.5px] shrink-0 bg-gray-400" />{" "}
               <span
                 className={cn(
-                  `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text`
+                  `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`
                 )}
               >
                 Know More
               </span>
               <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
-            </AnimatedGradientText> */}
-            <Link
+            </AnimatedGradientText>
+          </Link> */}
+          <Link
             href={"/"}
             className="z-10 flex mx-3 items-center justify-center"
           >
@@ -141,34 +146,48 @@ export default function HackathonLanding() {
               <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
             </AnimatedGradientText>
           </Link>
-          </Link>
-          
+        </div>
+
+        {/* Sponsors section */}
+        <div className="space-y-4">
+          <h2 className="text-xl font-bold text-gray-900 dark:text-white">Sponsored by</h2>
+          <div className="flex flex-wrap justify-center items-center gap-8">
+            {sponsors.map((sponsor, index) => (
+              <div key={index} className="flex items-center justify-center rounded-lg shadow-md">
+                <Image 
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  width={50}
+                  height={50}
+                  className="max-w-full max-h-full object-contain rounded-3xl"
+                />
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Footer text */}
         <div className="flex items-center justify-center text-sm text-gray-600 dark:text-gray-400">
-          {/* <Code className="mr-2 h-4 w-4" />
-          <span>by Recurse</span> */}
           <Image 
-          src={'/Images/recurse.png'}
-          alt="Recurse"
-          width={150}
-          height={150}
-          className="dark:block hidden"
+            src={'/Images/recurse.png'}
+            alt="Recurse"
+            width={150}
+            height={150}
+            className="dark:block hidden"
           />
           <Image 
-          src={'/Images/recurse-black.png'}
-          alt="Recurse"
-          width={150}
-          height={150}
-          className="dark:hidden block"
+            src={'/Images/recurse-black.png'}
+            alt="Recurse"
+            width={150}
+            height={150}
+            className="dark:hidden block"
           />
           <Image 
-          src={'/Images/prlogo.png'}
-          alt="PR"
-          width={100}
-          height={100}
-          className="block "
+            src={'/Images/prlogo.png'}
+            alt="PR"
+            width={100}
+            height={100}
+            className="block"
           />
         </div>
       </div>

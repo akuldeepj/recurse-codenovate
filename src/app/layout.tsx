@@ -6,6 +6,7 @@ import FooterComponent from "@/components/ui/footer";
 import GridPattern from "@/components/ui/grid-pattern";
 import { Analytics } from "@vercel/analytics/react"
 import Header from "@/components/header";
+import FloatingDockBar from "@/components/dock";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -40,6 +41,7 @@ export default function RootLayout({
       >
         <ThemeProvider enableSystem={true} attribute="class">
           <Header />
+          <FloatingDockBar />
             {children}
             <Analytics />
             <FooterComponent />
