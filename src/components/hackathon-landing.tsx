@@ -110,6 +110,23 @@ export default function HackathonLanding() {
               Whether you&apos;re a rookie or a pro, this is your chance to turn wild ideas into real-world impact!
             </p>
           </div>
+          {/* Sponsors section */}
+        <div className="space-y-4">
+          <h2 className="text-xl font-bold text-gray-900 dark:text-white">Sponsored by</h2>
+          <div className="flex flex-wrap justify-center items-center gap-8">
+            {sponsors.map((sponsor, index) => (
+              <div key={index} className="flex items-center justify-center rounded-lg shadow-md">
+                <Image 
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  width={50}
+                  height={50}
+                  className="max-w-full max-h-full object-contain rounded-3xl"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
         </div>
 
         {/* CTA Buttons */}
@@ -148,23 +165,7 @@ export default function HackathonLanding() {
           </Link>
         </div>
 
-        {/* Sponsors section */}
-        <div className="space-y-4">
-          <h2 className="text-xl font-bold text-gray-900 dark:text-white">Sponsored by</h2>
-          <div className="flex flex-wrap justify-center items-center gap-8">
-            {sponsors.map((sponsor, index) => (
-              <div key={index} className="flex items-center justify-center rounded-lg shadow-md">
-                <Image 
-                  src={sponsor.logo}
-                  alt={sponsor.name}
-                  width={50}
-                  height={50}
-                  className="max-w-full max-h-full object-contain rounded-3xl"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
+        
 
         {/* Footer text */}
         <div className="flex items-center justify-center text-sm text-gray-600 dark:text-gray-400">
