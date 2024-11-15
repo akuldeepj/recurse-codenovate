@@ -148,8 +148,9 @@ export default function HackathonLanding() {
             </AnimatedGradientText>
           </Link> */}
           <Link
-            href={"/"}
+            href={"https://unstop.com/o/TQusDqL"}
             className="z-10 flex mx-3 items-center justify-center"
+            target='_blank'
           >
             <AnimatedGradientText>
               🚀 <hr className="mx-2 h-6 w-[0.5px] shrink-0 bg-gray-400" />{" "}
