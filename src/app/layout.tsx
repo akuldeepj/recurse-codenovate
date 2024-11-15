@@ -5,7 +5,7 @@ import { ThemeProvider } from "next-themes";
 import FooterComponent from "@/components/ui/footer";
 import GridPattern from "@/components/ui/grid-pattern";
 import { Analytics } from "@vercel/analytics/react"
-
+import Header from "@/components/header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -39,6 +39,7 @@ export default function RootLayout({
         className={`${myFont.className} antialiased bg-gray-50 text-gray-950 relative dark:bg-black dark:text-gray-50 dark:text-opacity-90`}
       >
         <ThemeProvider enableSystem={true} attribute="class">
+          <Header />
             {children}
             <Analytics />
             <FooterComponent />
