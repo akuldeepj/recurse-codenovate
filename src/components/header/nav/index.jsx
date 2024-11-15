@@ -42,11 +42,11 @@ export default function HeaderNav() {
       initial="initial"
       animate="enter"
       exit="exit"
-      className={"h-[100vh] bg-[#6c44ac] fixed right-0 top-0 text-white z-[15]"}
+      className={"h-[100vh] bg-[#6c44ac] z-40 fixed right-0 top-0 text-white z-[15]"}
     >
       <div
         className={
-          "box-border h-full p-[90px] flex flex-col justify-between mob:w-[100vw] w-[35vw]"
+          "box-border h-full p-[90px]  flex flex-col justify-between mob:w-[100vw] w-[35vw]"
         }
       >
         <div
