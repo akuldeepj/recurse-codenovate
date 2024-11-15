@@ -6,9 +6,17 @@ const {
 import defaultTheme from "tailwindcss/defaultTheme";
 import colors from "tailwindcss/colors";
 
-function addVariablesForColors({ addBase, theme }: { addBase: any, theme: any }) {
+function addVariablesForColors({
+  addBase,
+  theme,
+}: {
+  addBase: any;
+  theme: any;
+}) {
   const allColors = flattenColorPalette(theme("colors"));
-  const newVars = Object.fromEntries(Object.entries(allColors).map(([key, val]) => [`--${key}`, val]));
+  const newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
   addBase({ ":root": newVars });
 }
 
@@ -18,10 +26,10 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   theme: {
     screens: {
@@ -44,23 +52,24 @@ const config: Config = {
       colors: {
         primary: "#7a5fd2",
         secondary: "#218583",
-        border: 'hsl(var(--border))',
-        input: 'hsl(var(--input))',
-        ring: 'hsl(var(--ring))',
-        background: 'hsl(var(--background))',
-        foreground: 'hsl(var(--foreground))',
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
         neutral: colors.neutral,
         transparent: colors.transparent,
         zinc: colors.zinc,
-        "color-1": 'hsl(var(--color-1))',
-        "color-2": 'hsl(var(--color-2))',
-        "color-3": 'hsl(var(--color-3))',
-        "color-4": 'hsl(var(--color-4))',
-        "color-5": 'hsl(var(--color-5))',
+        "color-1": "hsl(var(--color-1))",
+        "color-2": "hsl(var(--color-2))",
+        "color-3": "hsl(var(--color-3))",
+        "color-4": "hsl(var(--color-4))",
+        "color-5": "hsl(var(--color-5))",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
         "5xl": "0 0 20px rgba(0, 0, 0, 0.5)",
@@ -72,10 +81,14 @@ const config: Config = {
       },
       keyframes: {
         shimmer: {
-          "0%, 90%, 100%": { "background-position": "calc(-100% - var(--shimmer-width)) 0" },
-          "30%, 60%": { "background-position": "calc(100% + var(--shimmer-width)) 0" },
+          "0%, 90%, 100%": {
+            "background-position": "calc(-100% - var(--shimmer-width)) 0",
+          },
+          "30%, 60%": {
+            "background-position": "calc(100% + var(--shimmer-width)) 0",
+          },
         },
-		"border-beam": {
+        "border-beam": {
           "100%": {
             "offset-distance": "100%",
           },
@@ -98,22 +111,40 @@ const config: Config = {
           "65%, 85%": { transform: "translateZ(0) rotate(270deg)" },
           "100%": { transform: "translateZ(0) rotate(360deg)" },
         },
+        "accordion-down": {
+          from: {
+            height: "0",
+          },
+          to: {
+            height: "var(--radix-accordion-content-height)",
+          },
+        },
+        "accordion-up": {
+          from: {
+            height: "var(--radix-accordion-content-height)",
+          },
+          to: {
+            height: "0",
+          },
+        },
       },
       animation: {
         gradient: "gradient 8s linear infinite",
         shimmer: "shimmer 8s infinite",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         rainbow: "rainbow var(--speed, 2s) infinite linear",
-        "shimmer-slide": "shimmer-slide var(--speed) ease-in-out infinite alternate",
+        "shimmer-slide":
+          "shimmer-slide var(--speed) ease-in-out infinite alternate",
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
-		"border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
-
+        "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
   },
   plugins: [
     addVariablesForColors,
-    function ({ matchUtilities, theme }: { matchUtilities: any, theme: any }) {
+    function ({ matchUtilities, theme }: { matchUtilities: any; theme: any }) {
       matchUtilities(
         {
           "bg-dot": (value: string) => ({

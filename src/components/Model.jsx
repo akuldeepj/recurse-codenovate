@@ -31,7 +31,7 @@ function Font() {
             <Text font={src} position={[0, 0, -.1]} fontSize={0.4} {...textOption}>
             404
             </Text>
-            <Text font={src} position={[0, -.15, -.1]} fontSize={0.03} {...textOption}>
+            <Text font={src} position={[0, -.18, -.1]} fontSize={0.03} {...textOption}>
             The link is broken
             </Text>
         </group>
