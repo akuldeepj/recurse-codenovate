@@ -55,7 +55,7 @@ export default function FloatingDockBar() {
     // },
   ];
   return (
-    <div className="flex items-center justify-center w-full fixed z-50 bottom-5">
+    <div className="flex items-center justify-center w-full fixed z-50 bottom-5 mob:hidden">
       <FloatingDock
         items={links}
       />

@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <>
-    <div className={'des:hidden'}>
+    <div className={'des:hidden tab:hidden'}>
 
       <div className={`p-[30px] fixed right-0 z-[20] mob:p-[20px]`}>
         <div onClick={() => {setIsActive(!isActive)}} className={`w-[80px] h-[80px] rounded-[50%] ${bg} cursor-pointer flex items-center justify-center mob:w-[70px] mob:h-[70px]`}>
