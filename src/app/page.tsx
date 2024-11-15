@@ -52,8 +52,9 @@ export default function Home() {
       {/* <GridPatternLinearGradient /> */}
       <TimelineDemo />
       <WobbleCardDemo />
-      <AccordionDemo />
       <CountdownTimer targetDate={'2024-11-30T10:00:00+05:30'} />
+      <AccordionDemo />
+      
       
       </>
   );
