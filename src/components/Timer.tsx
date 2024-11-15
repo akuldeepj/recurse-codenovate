@@ -99,7 +99,7 @@ export default function FuturisticCountdownTimer({ targetDate = "2023-12-31T23:5
       ))}
       <div className="z-10 text-center p-8 rounded-3xl shadow-2xl">
         <h2 className="text-6xl font-bold text-white mb-10 mob:text-4xl">
-          See you in <img src="https://em-content.zobj.net/source/microsoft-teams/337/fire_1f525.png" alt="fire" className="inline-block w-12 h-12" />
+          See you in <img src="https://em-content.zobj.net/source/microsoft-teams/337/fire_1f525.png" alt="fire" className="inline-block w-14 h-14 mob:w-12 mob:h-12" />
         </h2>
         {Object.keys(timeLeft).length === 0 ? (
           <h1 className="text-8xl font-extrabold text-neon-blue mb-8 animate-pulse">yayy we are gonna meet soon 🥳</h1>
