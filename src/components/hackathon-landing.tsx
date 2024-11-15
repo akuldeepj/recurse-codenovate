@@ -69,7 +69,7 @@ export default function HackathonLanding() {
       ))}
       <div className="w-full max-w-6xl space-y-12 text-center z-10">
         {/* Top pill button */}
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <Link
             href="#"
             className={cn(
@@ -81,7 +81,7 @@ export default function HackathonLanding() {
             <span className="mr-2">🚀</span>
             Title Sponsor 
           </Link>
-        </div>
+        </div> */}
 
         {/* Main headline */}
         <div className="space-y-4">

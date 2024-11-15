@@ -104,3 +104,11 @@
     transform: translate(-100px, 50px) rotate(270deg);
   }
 }
+@keyframes time-change {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+.animate-time-change {
+  animation: time-change 1s ease-in-out;
+}

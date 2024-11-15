@@ -5,7 +5,7 @@ import GridPattern from './ui/grid-pattern'
 import { cn } from '@/lib/utils'
 
 import { FaReact, FaNodeJs, FaPython, FaJs, FaDocker, FaRust, FaSwift, FaJava, FaPhp, FaHtml5, FaCss3Alt } from 'react-icons/fa'
-import { SiTypescript, SiGo, SiRuby, SiCsharp, SiCplusplus,SiKotlin } from 'react-icons/si'
+import { SiTypescript, SiGo, SiRuby, SiCsharp, SiCplusplus, SiKotlin } from 'react-icons/si'
 
 interface IconType {
   Icon: React.ElementType;
@@ -98,20 +98,18 @@ export default function FuturisticCountdownTimer({ targetDate = "2023-12-31T23:5
         <FloatingIcon key={index} {...icon} />
       ))}
       <div className="z-10 text-center p-8 rounded-3xl shadow-2xl">
-        <h2 className="text-6xl font-bold text-white mb-10">See you in 🔥</h2>
+        <h2 className="text-6xl font-bold text-white mb-10 mob:text-4xl">See you in 🔥</h2>
         {Object.keys(timeLeft).length === 0 ? (
-          <h1 className="text-8xl font-extrabold text-neon-blue mb-8 animate-pulse">Time is up!</h1>
+          <h1 className="text-8xl font-extrabold text-neon-blue mb-8 animate-pulse">yayy we are gonna meet soon 🥳</h1>
         ) : (
           <div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              
               {Object.entries(timeLeft).map(([unit, value]) => (
-                <div key={unit} className="bg-gray-800 rounded-2xl p-6 shadow-lg transform  transition-all duration-300  relative overflow-hidden group">
-                  <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
-                  <p className="text-5xl font-bold text-primary mb-2 relative z-10">{value}</p>
+                <div key={unit} className="bg-gray-800 rounded-2xl p-6 shadow-lg transform transition-all duration-300 relative overflow-hidden group">
+                  <p className="text-5xl font-bold text-primary mb-2 relative z-10 animate-time-change">{value}</p>
                   <p className="text-xl text-gray-400 capitalize relative z-10">{unit}</p>
                   <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                    <div className="w-full h-full border-2 border-primtext-primary rounded-2xl animate-ping"></div>
+                    <div className="w-full h-full border-2 border-primary rounded-2xl animate-ping"></div>
                   </div>
                 </div>
               ))}
@@ -126,4 +124,3 @@ export default function FuturisticCountdownTimer({ targetDate = "2023-12-31T23:5
     </div>
   )
 }
-
