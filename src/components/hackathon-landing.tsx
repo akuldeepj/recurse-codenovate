@@ -209,9 +209,9 @@ export default function HackathonLanding() {
         <Image 
             src={'/Images/KMIT.png'}
             alt="Recurse"
-            width={70}
-            height={70}
-            className="block rounded-full mx-5 bg-white border-gray-300 text-gray-900 hover:text-white"
+            width={60}
+            height={60}
+            className="block mx-5 bg-white border-gray-300 text-gray-900 hover:text-white rounded-full px-4 py-5"
           />
           <Image 
             src={'/Images/recurse.png'}
