@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import AnimatedGradientText from "@/components/ui/animated-gradient-text";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import GradualSpacing from "./ui/gradual-spacing";
-
+import Link from "next/link";
 
 export function BorderBeamDemo() {
   return (
@@ -30,17 +30,23 @@ export function BorderBeamDemo() {
       <BorderBeam size={250} duration={12} delay={9} />
     </div> */}
       <div className="z-10 flex my-5 items-center justify-center">
-        <AnimatedGradientText>
-          🖥️ <hr className="mx-2 h-4 w-px shrink-0 bg-gray-300" />{" "}
-          <span
-            className={cn(
-              `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`,
-            )}
+      <Link
+            href={"https://unstop.com/o/TQusDqL"}
+            className="z-10 flex mx-3 items-center justify-center"
+            target='_blank'
           >
-            Register Now
-          </span>
-          <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
-        </AnimatedGradientText>
+            <AnimatedGradientText>
+              🚀 <hr className="mx-2 h-6 w-[0.5px] shrink-0 bg-gray-400" />{" "}
+              <span
+                className={cn(
+                  `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`
+                )}
+              >
+                Register Now
+              </span>
+              <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+            </AnimatedGradientText>
+          </Link>
         
       </div>
         <div className=" flex flex-col items-center mob:hidden">
