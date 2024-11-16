@@ -9,7 +9,8 @@ import {
   IconBrandInstagram,
   IconBook,
   IconTimeline,
-  Icon24Hours
+  Icon24Hours,
+  IconBulb
 } from "@tabler/icons-react";
 // import Image from "next/image";
 
@@ -22,14 +23,6 @@ export default function FloatingDockBar() {
       ),
       href: "/",
     },
-
-    {
-      title: "Rules",
-      icon: (
-        <IconBook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "/#rules",
-    },
     {
       title: "Timeline",
       icon: (
@@ -37,11 +30,19 @@ export default function FloatingDockBar() {
       ),
       href: "/#timeline",
     },
+    {
+      title: "Rules",
+      icon: (
+        <IconBook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/#rules",
+    },
+    
     
     {
       title: "Problem Statements",
       icon: (
-        <Icon24Hours className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBulb className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "/ps",
     },
