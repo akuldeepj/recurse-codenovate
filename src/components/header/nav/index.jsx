@@ -1,7 +1,5 @@
 "use client";
-
 import React, { useState } from "react";
-
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { menuSlide } from "../anim";
@@ -23,18 +21,21 @@ const navItems = [
     title: "timeline",
     href: "/#timeline",
   },
-  
   {
     title: "statements",
     href: "/ps",
   },
 ];
 
-
-export default function HeaderNav() {
-
+export default function HeaderNav({ closeNav }) {  // Add closeNav prop
   const pathname = usePathname();
   const [selectedIndicator, setSelectedIndicator] = useState(pathname);
+
+  // Function to handle both selection and nav closing
+  const handleNavigation = (href) => {
+    setSelectedIndicator(href);
+    closeNav(); // Close the nav when a link is clicked
+  };
 
   return (
     <motion.div
@@ -42,11 +43,11 @@ export default function HeaderNav() {
       initial="initial"
       animate="enter"
       exit="exit"
-      className={"h-[100vh] bg-[#6c44ac] z-40 fixed right-0 top-0 text-white z-[15]"}
+      className={"h-[100vh] bg-[#6c44ac] fixed right-0 top-0 text-white z-[15]"}
     >
       <div
         className={
-          "box-border h-full p-[90px]  flex flex-col justify-between mob:w-[100vw] w-[35vw]"
+          "box-border h-full p-[90px] flex flex-col justify-between mob:w-[100vw] w-[35vw]"
         }
       >
         <div
@@ -57,7 +58,6 @@ export default function HeaderNav() {
             "flex flex-col text-[56px] gap-[12px] mt-[80px] mob:text-[32px]"
           }
         >
-          
           <div
             className={
               "text-[#999999] border-b border-[#999999] uppercase mt-[40px] text-sm"
@@ -71,12 +71,11 @@ export default function HeaderNav() {
                 key={index}
                 data={{ ...data, index }}
                 isActive={selectedIndicator == data.href}
-                setSelectedIndicator={setSelectedIndicator}
+                setSelectedIndicator={handleNavigation}  // Use new handler
               ></Link>
             );
           })}
         </div>
-        
         {/* <Footer /> */}
       </div>
       <Curve />
