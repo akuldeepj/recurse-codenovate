@@ -39,10 +39,11 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <title>Your Website Title</title>
+        <link rel="icon" href="/codenovatewhite.png" type="image/x-icon" />
         <meta property="og:title" content="Recurse - Codenovate" />
         <meta property="og:description" content="Codenovate is recurse's 24 hours open hackathon at keshav memorial institue of technology (KMIT)" />
         <meta property="og:image" content="/codenovatewhite.png" />
-        <meta property="og:url" content="https://codenovate.tech" />
+        <meta property="og:url" content="https://www.codenovate.tech" />
         <meta property="og:type" content="website" />
       </Head>
       <body
