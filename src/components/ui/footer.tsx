@@ -43,7 +43,7 @@ export default function FooterComponent() {
                 <FaDiscord size={20} />
                 <span>Discord</span>
               </Link>
-              <Link href="#" className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
+              <Link href="https://unstop.com/o/TQusDqL" target='_blank' className="flex items-center space-x-2 hover:text-gray-600 dark:hover:text-gray-300">
                 <Computer size={20} />
                 <span>Unstop</span>
               </Link>
