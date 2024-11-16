@@ -3,8 +3,9 @@
 import { useState, useEffect } from 'react'
 import Link from "next/link"
 import { ChevronRight, Code } from 'lucide-react'
-import { FaReact, FaNodeJs, FaPython, FaJs, FaDocker, FaJava, FaPhp, FaRust, FaSwift } from 'react-icons/fa'
-import { SiTypescript, SiKotlin, SiGo } from 'react-icons/si'
+import { FaReact, FaNodeJs, FaPython, FaJs, FaDocker, FaRust, FaSwift, FaJava, FaPhp, FaHtml5, FaCss3Alt } from 'react-icons/fa'
+import { SiTypescript, SiGo, SiRuby, SiCsharp, SiCplusplus, SiKotlin } from 'react-icons/si'
+
 import { cn } from '@/lib/utils'
 import { GridPattern } from '@/components/ui/grid-pattern'
 import AnimatedGradientText from './ui/animated-gradient-text'
@@ -26,6 +27,14 @@ const techIcons = [
   { Icon: FaRust, alt: 'Rust' },
   { Icon: FaSwift, alt: 'Swift' },
   { Icon: SiGo, alt: 'Go' },
+  { Icon: FaJava, alt: 'Java' },
+  { Icon: FaPhp, alt: 'PHP' },
+  { Icon: SiKotlin, alt: 'Kotlin' },
+  { Icon: FaHtml5, alt: 'HTML5' },
+  { Icon: FaCss3Alt, alt: 'CSS3' },
+  { Icon: SiRuby, alt: 'Ruby' },
+  { Icon: SiCsharp, alt: 'C#' },
+  { Icon: SiCplusplus, alt: 'C++' },
 ]
 
 const sponsors = [
