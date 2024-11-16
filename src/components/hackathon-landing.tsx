@@ -213,6 +213,7 @@ export default function HackathonLanding() {
             height={70}
             className="block mx-5 bg-white border-gray-300 text-gray-900 hover:text-white rounded-full px-1 py-2"
           />
+          
           <Image 
             src={'/Images/recurse.png'}
             alt="Recurse"
