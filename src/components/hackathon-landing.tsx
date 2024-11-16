@@ -83,7 +83,7 @@ export default function HackathonLanding() {
       ))}
       <div className="w-full max-w-6xl space-y-12 text-center z-10">
         {/* Top pill button */}
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
             <Link
               href="#"
               className={cn(
@@ -101,7 +101,7 @@ export default function HackathonLanding() {
                 className="rounded-full"
               />
             </Link>
-          </div>
+          </div> */}
 
 
         {/* Main headline */}
@@ -206,6 +206,13 @@ export default function HackathonLanding() {
         
         {/* Footer text */}
         <div className="flex items-center justify-center text-sm text-gray-600 dark:text-gray-400">
+        <Image 
+            src={'/Images/KMIT.png'}
+            alt="Recurse"
+            width={70}
+            height={70}
+            className="block rounded-full mx-5 bg-white border-gray-300 text-gray-900 hover:text-white"
+          />
           <Image 
             src={'/Images/recurse.png'}
             alt="Recurse"
