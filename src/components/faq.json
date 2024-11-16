@@ -47,11 +47,16 @@
     {
       "id": "item-10",
       "question": "Are cross-college teams allowed?",
-      "answer": "Yes, inter-college teams are allowed. Teams can consist of participants from different engineering colleges in Telangana."
+      "answer": "Yes, inter-college teams are allowed. Teams can consist of participants from different engineering colleges."
     },
     {
       "id": "item-11",
       "question": "Are cross-year teams allowed?",
       "answer": "Yes, teams can include participants from different years."
+    },
+    {
+      "id": "item-12",
+      "question": "What benefits do participants get in the second round?",
+      "answer": "In the second round, participants will gain access to an exclusive free course designed to enhance their skills and help them along with other exciting prizes."
     }
 ]
