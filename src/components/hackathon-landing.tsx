@@ -83,19 +83,26 @@ export default function HackathonLanding() {
       ))}
       <div className="w-full max-w-6xl space-y-12 text-center z-10">
         {/* Top pill button */}
-        {/* <div className="flex justify-center">
-          <Link
-            href="#"
-            className={cn(
-              "inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium",
-              "text-foreground transition-colors hover:bg-accent",
-              "dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700"
-            )}
-          >
-            <span className="mr-2">🚀</span>
-            Title Sponsor 
-          </Link>
-        </div> */}
+        <div className="flex justify-center">
+            <Link
+              href="#"
+              className={cn(
+                "inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium",
+                "text-foreground transition-colors hover:bg-accent",
+                "bg-white border-gray-300 text-gray-900 hover:text-white",
+                // "dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700"
+              )}
+            >
+              <Image
+                src="/Images/KMIT.png" // Replace with your actual logo path
+                alt="Title Sponsor"
+                width={40} // Adjust size as needed
+                height={40}
+                className="rounded-full"
+              />
+            </Link>
+          </div>
+
 
         {/* Main headline */}
         <div className="space-y-4">
@@ -122,35 +129,39 @@ export default function HackathonLanding() {
           {/* Sponsors section */}
         {/* Sponsors section */}
     {/* Sponsors section */}
-<div className="space-y-4">
-  <div className="flex flex-wrap justify-center items-center gap-8">
-    {sponsors.map((sponsor, index) => (
-      <div 
-        key={index} 
-        className="flex flex-col items-center justify-center p-4 rounded-lg shadow-md text-center"
+    <div className="flex flex-wrap justify-center items-center gap-8">
+  {sponsors.map((sponsor, index) => (
+    <div 
+      key={index} 
+      className="flex flex-col items-center justify-center p-4 rounded-lg shadow-md text-center"
+    >
+      <Link 
+        href={sponsor.link} 
+        target="_blank" 
+        className="text-sm text-center"
       >
-        <Link 
-          href={sponsor.link} 
-          target="_blank" 
-          className="text-sm text-center"
-        >
-          <h3 className="mt-2 text-sm font-medium text-gray-800 dark:text-gray-200">
-            {sponsor.title}
-          </h3>
+        <h3 className="mt-2 text-sm font-medium text-gray-800 dark:text-gray-200 word-break">
+          {sponsor.title === "Ecosystem and Outreach Partner" ? (
+            <>
+              Ecosystem <br />
+              and Outreach <br />
+              Partner
+            </>
+          ) : sponsor.title}
+        </h3>
 
-          <Image 
-            src={sponsor.logo}
-            alt={sponsor.name}
-            width={50}
-            height={50}
-            className="max-w-full max-h-full object-contain rounded-3xl mx-auto"
-          />
-          
-        </Link>
-      </div>
-    ))}
-  </div>
+        <Image 
+          src={sponsor.logo}
+          alt={sponsor.name}
+          width={50}
+          height={50}
+          className="max-w-full max-h-full object-contain rounded-3xl mx-auto"
+        />
+      </Link>
+    </div>
+  ))}
 </div>
+
 
 
         </div>
