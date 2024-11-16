@@ -7,6 +7,7 @@ import GridPattern from "@/components/ui/grid-pattern";
 import { Analytics } from "@vercel/analytics/react"
 import Header from "@/components/header";
 import FloatingDockBar from "@/components/dock";
+import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -36,6 +37,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <title>Your Website Title</title>
+        <meta property="og:title" content="Recurse - Codenovate" />
+        <meta property="og:description" content="Codenovate is recurse's 24 hours open hackathon at keshav memorial institue of technology (KMIT)" />
+        <meta property="og:image" content="/codenovatewhite.png" />
+        <meta property="og:url" content="https://codenovate.tech" />
+        <meta property="og:type" content="website" />
+      </Head>
       <body
         className={`${myFont.className} antialiased bg-gray-50 text-gray-950 relative dark:bg-black dark:text-gray-50 dark:text-opacity-90`}
       >
