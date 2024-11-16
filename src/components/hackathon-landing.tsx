@@ -38,8 +38,8 @@ const techIcons = [
 ]
 
 const sponsors = [
-  { name: 'Tutorials Point', logo: '/Images/tp.png' },
-  { name: 'Student Tribe', logo: '/Images/ST.png' },
+  { name: 'Tutorials Point', logo: '/Images/tp.png', link: 'https://www.tutorialspoint.com/',title:"Tutored By" },
+  { name: 'Student Tribe', logo: '/Images/ST.png', link: 'https://www.studenttribe.com/',title:"Ecosystem and Outreach partner" },
 ]
 
 function FloatingIcon({ Icon, alt, style }: IconType) {
@@ -120,22 +120,39 @@ export default function HackathonLanding() {
             </p>
           </div>
           {/* Sponsors section */}
-        <div className="space-y-4">
-          <h2 className="text-xl font-bold text-gray-900 dark:text-white">Sponsored by</h2>
-          <div className="flex flex-wrap justify-center items-center gap-8">
-            {sponsors.map((sponsor, index) => (
-              <div key={index} className="flex items-center justify-center rounded-lg shadow-md">
-                <Image 
-                  src={sponsor.logo}
-                  alt={sponsor.name}
-                  width={50}
-                  height={50}
-                  className="max-w-full max-h-full object-contain rounded-3xl"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
+        {/* Sponsors section */}
+    {/* Sponsors section */}
+<div className="space-y-4">
+  <div className="flex flex-wrap justify-center items-center gap-8">
+    {sponsors.map((sponsor, index) => (
+      <div 
+        key={index} 
+        className="flex flex-col items-center justify-center p-4 rounded-lg shadow-md text-center"
+      >
+        <Link 
+          href={sponsor.link} 
+          target="_blank" 
+          className="text-sm text-center"
+        >
+          <h3 className="mt-2 text-sm font-medium text-gray-800 dark:text-gray-200">
+            {sponsor.title}
+          </h3>
+
+          <Image 
+            src={sponsor.logo}
+            alt={sponsor.name}
+            width={50}
+            height={50}
+            className="max-w-full max-h-full object-contain rounded-3xl mx-auto"
+          />
+          
+        </Link>
+      </div>
+    ))}
+  </div>
+</div>
+
+
         </div>
 
         {/* CTA Buttons */}
@@ -176,7 +193,6 @@ export default function HackathonLanding() {
         </div>
 
         
-
         {/* Footer text */}
         <div className="flex items-center justify-center text-sm text-gray-600 dark:text-gray-400">
           <Image 
