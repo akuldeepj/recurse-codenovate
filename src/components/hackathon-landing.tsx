@@ -194,11 +194,11 @@ export default function HackathonLanding() {
             className="dark:hidden block"
           />
           <Image 
-            src={'/Images/prlogo.png'}
-            alt="PR"
-            width={100}
-            height={100}
-            className="block"
+            src={'/Images/council.png'}
+            alt="Student Council"
+            width={60}
+            height={60}
+            className="block rounded-full mx-5"
           />
         </div>
       </div>
