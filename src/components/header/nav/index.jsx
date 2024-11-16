@@ -14,13 +14,14 @@ const navItems = [
     href: "/",
   },
   {
-    title: "Rules",
-    href: "/#rules",
-  },
-  {
     title: "Timeline",
     href: "/#timeline",
   },
+  {
+    title: "Rules",
+    href: "/#rules",
+  },
+  
   {
     title: "Statements",
     href: "/ps",
