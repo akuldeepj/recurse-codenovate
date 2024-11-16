@@ -208,7 +208,7 @@ export default function HackathonLanding() {
         <div className="flex items-center justify-center text-sm text-gray-600 dark:text-gray-400">
         <Image 
             src={'/Images/KMIT.png'}
-            alt="Recurse"
+            alt="KMIT"
             width={60}
             height={60}
             className="block mx-5 bg-white border-gray-300 text-gray-900 hover:text-white rounded-full px-4 py-5"
