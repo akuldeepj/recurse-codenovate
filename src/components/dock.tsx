@@ -28,14 +28,14 @@ export default function FloatingDockBar() {
       icon: (
         <IconBook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#rules",
+      href: "/#rules",
     },
     {
       title: "Timeline",
       icon: (
         <IconTimeline className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#timeline",
+      href: "/#timeline",
     },
     
     {
