@@ -133,7 +133,7 @@ export default function HackathonLanding() {
   {sponsors.map((sponsor, index) => (
     <div 
       key={index} 
-      className="flex flex-col items-center justify-center p-4 rounded-lg shadow-md text-center"
+      className="flex flex-col items-center justify-center p-4 rounded-lg dark:shadow-md text-center"
     >
       <Link 
         href={sponsor.link} 

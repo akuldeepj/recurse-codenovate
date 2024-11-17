@@ -112,9 +112,8 @@ export function WobbleCardDemo() {
             Event Schedule
           </h2>
           <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
-            - Round 1 (Quiz): 22nd Nov 2024<br />
-            - Round 2 (Idea Submission): 24th Nov 2024<br />
-            - Round 3 (Hackathon): 30th Nov 2024
+            - Round 1 (Idea Submission): 18th to 24th Nov 2024<br />
+            - Finale round (Hackathon): 30th Nov 2024
           </p>
           <Image
             src="https://images.unsplash.com/photo-1622465949558-94d7dbea2651?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
