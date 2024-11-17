@@ -11,6 +11,7 @@ import images from "./images.json";
 import BoxRevealDemo from "@/components/test";
 import HackathonLanding from "@/components/hackathon-landing";
 import CountdownTimer from '@/components/Timer';
+import { AnimatedSideAlertNotification } from "@/components/animated-side-alert-notification";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -48,6 +49,7 @@ export default function Home() {
       {isLoading && <Preloader />}
       </AnimatePresence>
       {/* <BoxRevealDemo /> */}
+      {/* <AnimatedSideAlertNotification /> */}
       <HackathonLanding />
       {/* <GridPatternLinearGradient /> */}
       <TimelineDemo />
