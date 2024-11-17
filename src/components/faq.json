@@ -17,7 +17,7 @@
   {
       "id": "item-4",
       "question": "Is there a registration fee for participating in this competition?",
-      "answer": "There is no registration fee for Round 1 (Technical & Aptitude round). However, there is a registration fee of ₹400 for Round 2 (Idea Submission Round)."
+      "answer": "There is a registration fee of ₹400 for Round 1 (Idea Submission Round)."
     },
       {
     "id": "item-5",
@@ -34,15 +34,15 @@
       "question": "Can I participate individually if I don't have a team?",
       "answer": "No, you cannot participate individually. Teams must consist of 3-4 members. If you don't have a team, we encourage you to team up with other participants or reach out to your friends or classmates to form a team."
     },
-  {
+    {
       "id": "item-8",
-      "question": "Is there a specific format for the Idea Submission submission in Round 2?",
-      "answer": "Detailed information and instructions about the idea Submission round will be sent to you via email after qualifying Round 1."
+      "question": "Is there a specific format for the Idea Submission submission in Round 1?",
+      "answer": "Yes,There is a PPT template available on unstop with a slide limit of 6."
     },
-  {
+    {
       "id": "item-9",
       "question": "Is the competition online or offline?",
-      "answer": "Round 1 and Round 2 will be held online. Finale will be an offline event at KMIT."
+      "answer": "Round 1 will be held online. Finale will be an offline event at KMIT."
     },
     {
       "id": "item-10",
@@ -56,7 +56,12 @@
     },
     {
       "id": "item-12",
-      "question": "What benefits do participants get in the second round?",
-      "answer": "In the second round, participants will gain access to an exclusive free course designed to enhance their skills and help them along with other exciting prizes."
+      "question": "What benefits do participants get in the first round?",
+      "answer": "After the first round registrations, participants will gain access to an exclusive course from Tutorials point for free ,designed to enhance their skills and help them along with other exciting prizes."
+    },
+    {
+      "id": "item-13",
+      "question": "Will internet be provided?",
+      "answer": "Internet will not be provided, please bring your own connection."
     }
 ]
