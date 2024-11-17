@@ -129,38 +129,43 @@ export default function HackathonLanding() {
           {/* Sponsors section */}
         {/* Sponsors section */}
     {/* Sponsors section */}
-    <div className="flex flex-wrap justify-center items-center gap-8">
-  {sponsors.map((sponsor, index) => (
-    <div 
-      key={index} 
-      className="flex flex-col items-center justify-center p-4 rounded-lg dark:shadow-md text-center"
-    >
-      <Link 
-        href={sponsor.link} 
-        target="_blank" 
-        className="text-sm text-center"
-      >
-        <h3 className="mt-2 text-sm font-medium text-gray-800 dark:text-gray-200 word-break">
-          {sponsor.title === "Ecosystem and Outreach Partner" ? (
-            <>
-              Ecosystem <br />
-              and Outreach <br />
-              Partner
-            </>
-          ) : sponsor.title}
-        </h3>
-
-        <Image 
-          src={sponsor.logo}
-          alt={sponsor.name}
-          width={50}
-          height={50}
-          className="max-w-full max-h-full object-contain rounded-3xl mx-auto"
-        />
-      </Link>
+    <div className="flex flex-wrap justify-center items-center gap-8 mob:gap-2">
+      {sponsors.map((sponsor, index) => (
+        <div 
+          key={index} 
+          className="flex flex-col items-center justify-center p-4 rounded-lg dark:shadow-md text-center"
+        >
+          <Link 
+            href={sponsor.link} 
+            target="_blank" 
+            className="text-sm text-center"
+          >
+            <Image 
+              src={sponsor.logo}
+              alt={sponsor.name}
+              width={40}
+              height={40}
+              className="max-w-full max-h-full object-contain rounded-3xl mx-auto mob:hidden"
+            />
+            <Image 
+              src={sponsor.logo}
+              alt={sponsor.name}
+              width={40}
+              height={40}
+              className="max-w-full max-h-full object-contain rounded-3xl mx-auto des:hidden tab:hidden"
+            />
+            <h3 className="mt-2 text-sm font-medium text-gray-800 dark:text-gray-200 word-break">
+              {sponsor.title === "Ecosystem and Outreach partner" ? (
+                <>
+                  Ecosystem and<br />
+                  Outreach Partner
+                </>
+              ) : sponsor.title}
+            </h3>
+          </Link>
+        </div>
+      ))}
     </div>
-  ))}
-</div>
 
 
 
@@ -205,35 +210,34 @@ export default function HackathonLanding() {
 
         
         {/* Footer text */}
-        <div className="flex items-center justify-center text-sm text-gray-600 dark:text-gray-400">
-        <Image 
+        <div className="flex flex-wrap items-center justify-center text-sm text-gray-600 dark:text-gray-400">
+          <Image 
             src={'/Images/KMIT.png'}
             alt="KMIT"
-            width={70}
-            height={70}
-            className="block mx-5 bg-white border-gray-300 text-gray-900 hover:text-white rounded-full px-1 py-2"
+            width={50}
+            height={50}
+            className="block mx-2 bg-white border-gray-300 text-gray-900 hover:text-white rounded-full px-1 py-2"
           />
-          
           <Image 
             src={'/Images/recurse.png'}
             alt="Recurse"
-            width={150}
-            height={150}
-            className="dark:block hidden"
+            width={100}
+            height={100}
+            className="dark:block hidden mx-2"
           />
           <Image 
             src={'/Images/recurse-black.png'}
             alt="Recurse"
-            width={150}
-            height={150}
-            className="dark:hidden block"
+            width={100}
+            height={100}
+            className="dark:hidden block mx-2"
           />
           <Image 
             src={'/Images/council.png'}
             alt="Student Council"
-            width={60}
-            height={60}
-            className="block rounded-full mx-5"
+            width={50}
+            height={50}
+            className="block rounded-full mx-2"
           />
         </div>
       </div>

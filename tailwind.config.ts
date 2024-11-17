@@ -33,7 +33,7 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      mob: { min: "300px", max: "850px" },
+      mob: { min: "280px", max: "850px" },
       tab: { min: "851px", max: "1000px" },
       des: { min: "1001px" },
       xsm: "240px",
