@@ -53,7 +53,7 @@ export default function FooterComponent() {
         <div className="mt-12 border-t border-gray-300 dark:border-gray-700 pt-8">
           <TextHoverEffect text="Codenovate" />
         </div>
-        <div className="mt-4 text-center">
+        <div className="text-center mb-12">
           <p className="text-lg text-gray-600 dark:text-gray-400 italic font-semibold">
             Made with <span className="text-red-500">♥</span> by <Link href={"https://www.instagram.com/recurse.official"} target='_blank'><span className="underline">Recurse</span></Link>
           </p>
