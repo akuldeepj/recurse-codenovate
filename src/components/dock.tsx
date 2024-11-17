@@ -19,21 +19,21 @@ export default function FloatingDockBar() {
     {
       title: "Home",
       icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconHome className="h-full w-full text-neutral-600 dark:text-neutral-300" />
       ),
       href: "/",
     },
     {
       title: "Timeline",
       icon: (
-        <IconTimeline className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconTimeline className="h-full w-full text-neutral-600 dark:text-neutral-300" />
       ),
       href: "/#timeline",
     },
     {
       title: "Rules",
       icon: (
-        <IconBook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBook className="h-full w-full text-neutral-600 dark:text-neutral-300" />
       ),
       href: "/#rules",
     },
@@ -42,7 +42,7 @@ export default function FloatingDockBar() {
     {
       title: "Problem Statements",
       icon: (
-        <IconBulb className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBulb className="h-full w-full text-neutral-600 dark:text-neutral-300" />
       ),
       href: "/ps",
     },

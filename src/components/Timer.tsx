@@ -86,7 +86,7 @@ export default function FuturisticCountdownTimer({ targetDate = "2023-12-31T23:5
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center relative overflow-hidden bg-black">
+    <div className="min-h-screen flex items-center justify-center relative overflow-hidden dark:bg-black">
       <GridPattern
         width={40}
         height={40}
@@ -97,8 +97,8 @@ export default function FuturisticCountdownTimer({ targetDate = "2023-12-31T23:5
       {icons.map((icon, index) => (
         <FloatingIcon key={index} {...icon} />
       ))}
-      <div className="z-10 text-center p-8 rounded-3xl shadow-2xl">
-        <h2 className="text-6xl font-bold text-white mb-10 mob:text-4xl">
+      <div className="z-10 text-center p-8 rounded-3xl dark:shadow-2xl">
+        <h2 className="text-6xl font-bold dark:text-white mb-10 mob:text-4xl">
           See you in <img src="https://em-content.zobj.net/source/microsoft-teams/337/fire_1f525.png" alt="fire" className="inline-block w-14 h-16 mb-3 mob:w-10 mob:h-12 mob:mb-3" />
         </h2>
         {Object.keys(timeLeft).length === 0 ? (
@@ -107,7 +107,7 @@ export default function FuturisticCountdownTimer({ targetDate = "2023-12-31T23:5
           <div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {Object.entries(timeLeft).map(([unit, value]) => (
-                <div key={unit} className="bg-gray-800 rounded-2xl p-6 shadow-lg transform transition-all duration-300 relative overflow-hidden group">
+                <div key={unit} className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-6 shadow-lg transform transition-all duration-300 relative overflow-hidden group">
                   <p className="text-5xl font-bold text-primary mb-2 relative z-10 animate-time-change">{value}</p>
                   <p className="text-xl text-gray-400 capitalize relative z-10">{unit}</p>
                   <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -119,10 +119,6 @@ export default function FuturisticCountdownTimer({ targetDate = "2023-12-31T23:5
           </div>
         )}
       </div>
-
-      {/* Glowing orbs */}
-      <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse delay-700"></div>
     </div>
   )
 }
