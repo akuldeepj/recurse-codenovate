@@ -39,7 +39,7 @@ const techIcons = [
 
 const sponsors = [
   { name: 'Tutorials Point', logo: '/Images/tp.png', link: 'https://www.tutorialspoint.com/',title:"Tutored By" },
-  { name: 'Student Tribe', logo: '/Images/ST.png', link: '#',title:"Ecosystem and Outreach partner" },
+  { name: 'Student Tribe', logo: '/Images/ST.png', link: 'https://www.studenttribe.in/',title:"Ecosystem and Outreach partner" },
 ]
 
 function FloatingIcon({ Icon, alt, style }: IconType) {
