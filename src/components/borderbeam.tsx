@@ -26,7 +26,7 @@ export function BorderBeamDemo() {
           className="dark:hidden block mx-2 mt-6"
         />
       </Link>
-      <h1 className="text-4xl font-bold text-center mt-8">RECURSE PRESENTS</h1>
+      {/* <h1 className="text-4xl font-bold text-center mt-8">RECURSE PRESENTS</h1> */}
       <div className="relative rounded-2xl p-2">
         <Image
           src="/Banner.png"
