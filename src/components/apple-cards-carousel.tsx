@@ -77,20 +77,22 @@ export  function AppleCardsCarousel({ items = [], className = "" }: { items?: It
                   <DialogTitle className="text-2xl font-bold text-gray-800 dark:text-white">
                     {selectedItem.title}
                   </DialogTitle>
-                  <motion.div
+                    <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1, duration: 0.3 }}
                     className="mt-6"
-                  >
-                    <Image
+                    >
+                    <div className="relative h-[300px] overflow-hidden rounded-lg w-full">
+                      <Image
                       src={selectedItem.image}
                       alt={selectedItem.title}
-                      width={400}
-                      height={400}
-                      className="rounded-lg object-cover w-full"
-                    />
-                  </motion.div>
+                      layout="fill"
+                      objectFit="cover"
+                      className="object-center"
+                      />
+                    </div>
+                    </motion.div>
                   <DialogDescription className="text-sm text-gray-600 dark:text-gray-300 mt-2">
                     {selectedItem.description}
                   </DialogDescription>
