@@ -33,14 +33,14 @@ export function AnimatedSideAlertNotification() {
       <Alert variant="default" className="shadow-lg dark:bg-gray-900 dark:border-gray-700">
         <AlertCircle className="h-4 w-4 dark:text-white" />
         <AlertTitle className="flex justify-between items-center dark:text-white">
-          New Problem Statements
+          Problem Statements and ppt template
           <Button variant="ghost" size="sm" onClick={handleClose} className="-my-1 h-8 w-8 p-0 hover:bg-transparent dark:hover:bg-transparent">
             <X className="h-4 w-4 dark:text-white" />
             <span className="sr-only">Close</span>
           </Button>
         </AlertTitle>
         <AlertDescription className="mt-2 dark:text-white">
-          <p className="mb-2">Problem statements have been released!</p>
+          <p className="mb-2">Problem statements and PPT template have been released!</p>
           <Link href="/ps">
           <Button variant="outline" className="w-full text-white bg-primary" onClick={handleViewHere}>
             View Here
