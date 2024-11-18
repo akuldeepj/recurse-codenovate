@@ -11,6 +11,7 @@
   "dependencies": {
     "@heroicons/react": "^2.1.5",
     "@radix-ui/react-accordion": "^1.2.1",
+    "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-slot": "^1.1.0",
     "@react-three/drei": "^9.116.2",
     "@react-three/fiber": "^8.17.10",
@@ -18,7 +19,7 @@
     "@vercel/analytics": "^1.4.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.11.11",
+    "framer-motion": "^11.11.17",
     "lenis": "^1.1.16",
     "leva": "^0.9.35",
     "locomotive-scroll": "^4.1.4",

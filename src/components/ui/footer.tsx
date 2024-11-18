@@ -14,7 +14,7 @@ export default function FooterComponent() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
           <div className="mb-8 md:mb-0">
             <div className="flex items-center space-x-2 mb-4 text-xl">
-              <img src="/codenovate.png" alt="Logo" className="w-6 h-6" />
+              <img src="/codenovate.png" alt="Logo" className="w-8 h-8" />
                 <span className="font-semibold">Codenovate</span>
               </div>
               {/* <p className="text-sm text-gray-600 dark:text-gray-400">All rights reserved</p> */}

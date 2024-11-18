@@ -49,7 +49,7 @@ export default function Home() {
       {isLoading && <Preloader />}
       </AnimatePresence>
       {/* <BoxRevealDemo /> */}
-      {/* <AnimatedSideAlertNotification /> */}
+      <AnimatedSideAlertNotification />
       <HackathonLanding />
       {/* <GridPatternLinearGradient /> */}
       <TimelineDemo />
