@@ -6,21 +6,27 @@ import AnimatedGradientText from "@/components/ui/animated-gradient-text";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import GradualSpacing from "./ui/gradual-spacing";
 import Link from "next/link";
+import { AppleCardsCarousel } from "./apple-cards-carousel";
+import data from "./data.json"
 
 export function BorderBeamDemo() {
   return (
     <>
-    <div className="relative flex h-full w-screen flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-black md:shadow-xl">
-        <GridPattern width={40} height={40} x={-1} y={-1} className={cn("[mask-image:radial-gradient(60vw_circle_at_center,white,transparent)]")} />
+    <div className=" flex h-full w-screen flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-black md:shadow-xl">
+        {/* <GridPattern width={40} height={40} x={-1} y={-1} className={cn("[mask-image:radial-gradient([h-full-20%]_circle_at_center,white,transparent)]")} /> */}
 
         <h1 className="text-4xl font-bold text-center my-8">RECURSE PRESENTS</h1>
         <div className='relative rounded-2xl p-2'>
           <img
             src="/Banner.png"
             alt="Hero Image"
-            className="hidden md:w-[80vw] rounded-[inherit] border object-contain shadow-lg dark:block w-[90vw] mob:my-5"
+            className="hidden md:w-[80vw] rounded-[inherit] border object-contain shadow-lg dark:block w-[90vw] mob:my-5 "
           />
-         
+         <img
+            src="/Banner1.png"
+            alt="Hero Image"
+            className="dark:hidden md:w-[80vw] rounded-[inherit] border object-contain shadow-lg block w-[90vw] mob:my-5 "
+          />
           <BorderBeam size={350} duration={12} delay={9} className="mob:hidden" />
         </div>
         {/* <div className="relative flex h-[70vh] w-[70vw] flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-gray-900 md:shadow-xl">
@@ -53,13 +59,13 @@ export function BorderBeamDemo() {
           <p className="text-lg text-gray-500">Scroll down for more</p>
           <ChevronDown className="animate-bounce" size={32} />
         </div>
-        <div className='md:h-[40vh] flex items-center justify-center h-[10vh]'>
-        <GradualSpacing
+        <div className='md:h-[20vh] flex items-center justify-center h-[5vh]'>
+        {/* <GradualSpacing
           className="font-display text-center text-sm font-bold tracking-[-0.1em] text-black dark:text-white md:text-5xl md:leading-[5rem]"
           text="Problem Statements will be released soon!"
-        />
+        /> */}
       </div>
-        <div className="py-10"></div>
+      <AppleCardsCarousel items={data} />
     </div>
     </>
   );

@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Apple Card",
+      "description": "Get up to 3% Daily Cash back with every purchase.",
+      "link": "#",
+      "image": "/Images/1.png",
+      "color": "bg-gray-100"
+    },
+    {
+      "title": "iPhone 14 Pro",
+      "description": "Pro. Beyond.",
+      "link": "#",
+      "image": "/Images/1.png",
+      "color": "bg-gray-200"
+    },
+    {
+      "title": "iPad Air",
+      "description": "Light. Bright. Full of might.",
+      "link": "#",
+      "image": "/Images/1.png",
+      "color": "bg-gray-300"
+    },
+    {
+      "title": "MacBook Pro",
+      "description": "Supercharged for pros.",
+      "link": "#",
+      "image": "/Images/1.png",
+      "color": "bg-gray-400"
+    }
+  ]
