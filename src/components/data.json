@@ -1,30 +1,74 @@
 [
     {
-      "title": "Apple Card",
-      "description": "Get up to 3% Daily Cash back with every purchase.",
+      "title": "1.Digital Currency for College Transactions",
+      "description": "Develop a digital currency platform that allows students to convert real money into points, which can then be used for transactions across various campus services .These points will be accepted by participating merchants within the campus.",
       "link": "#",
-      "image": "/Images/1.png",
+      "image": "https://images.unsplash.com/photo-1660139099083-03e0777ac6a7?q=80&w=2967&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "color": "bg-gray-100"
     },
     {
-      "title": "iPhone 14 Pro",
-      "description": "Pro. Beyond.",
+      "title": "2.Cognitive Learning Platform for Personalized Education",
+      "description": "A cognitive learning platform for personalized education is an AI-driven solution designed to adapt to each learner's unique needs, preferences, and pace. By leveraging advanced analytics and cognitive science principles, it provides tailored learning experiences, real-time feedback, and resource recommendations. The platform empowers educators with actionable insights into student performance, enabling them to address challenges and enhance outcomes. This innovative approach fosters engagement, closes knowledge gaps, and ensures every learner achieves their full potential.",
       "link": "#",
-      "image": "/Images/1.png",
+      "image": "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "color": "bg-gray-200"
     },
     {
-      "title": "iPad Air",
-      "description": "Light. Bright. Full of might.",
+      "title": "3.Advanced Food Redistribution Network for Communities",
+      "description": "Every day, tons of food in urban areas go to waste due to expiration or surplus prepared meals. This not only has significant environmental consequences but also represents a missed opportunity to feed communities in need. An efficient system is required to connect food suppliers with food banks and non-profit organizations to ensure food is redistributed before it goes to waste. ",
       "link": "#",
-      "image": "/Images/1.png",
+      "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "color": "bg-gray-300"
     },
     {
-      "title": "MacBook Pro",
-      "description": "Supercharged for pros.",
+      "title": "4.Student-Centered Anonymous Mental Health Support Platform",
+      "description": "Students face increasing mental health challenges due to academic pressure, social stress, and personal issues, but many hesitate to seek help due to stigma or fear of judgment. Existing mental health resources are often not tailored to the unique needs of students, and many lack the anonymity required to make students feel comfortable reaching out. As a result, there is a gap in accessible, confidential mental health support specifically designed for the student population. `An innovative solution is expected to solve these mental health issues of the students, that has various ways to both prevent and solve the mental health issues of the students.",
       "link": "#",
-      "image": "/Images/1.png",
+      "image": "https://images.unsplash.com/photo-1541976844346-f18aeac57b06?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "color": "bg-gray-400"
-    }
+    },
+    {
+        "title": "5. AI for Automated Medical Image Annotation",
+        "description": "",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1579781354186-012d7e850ad7?q=80&w=2317&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "color": "bg-gray-400"
+      },
+
+    {
+        "title": "6.Digital Time Capsule",
+        "description": "Every day, tons of food in urban areas go to waste due to expiration or surplus prepared meals. This not only has significant environmental consequences but also represents a missed opportunity to feed communities in need. An efficient system is required to connect food suppliers with food banks and non-profit organizations to ensure food is redistributed before it goes to waste. ",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1607827447604-d9a8c439186e?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "color": "bg-gray-300"
+      },
+      {
+        "title": "7.Paisa bachao Paisa badhao (Regain like solution for digital payments)",
+        "description": "",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1563986768711-b3bde3dc821e?q=80&w=2968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "color": "bg-gray-300"
+      },
+      {
+        "title": "8.Automated API Documentation Generator",
+        "description": "Maintaining accurate and up-to-date API documentation is a challenging and time-consuming task, often leading to inconsistencies between the documentation and the actual code. There is a need for a solution that can automatically track changes in the backend and generate updated documentation seamlessly, eliminating manual effort.This solution will ensure that documentation stays in sync with the backend, providing clarity and consistency while saving time. It will enhance collaboration and make the APIs more accessible and understandable for all stakeholders.",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "color": "bg-gray-300"
+      },
+      {
+        "title": "9.Ultra-Secure Chat Platform Using PGP",
+        "description": "In today's digital age, private communication faces constant threats from eavesdropping, data breaches, and surveillance, as existing chat platforms often lack robust security due to weak encryption or centralized architectures. This project aims to create a secure chat platform leveraging Pretty Good Privacy (PGP) to ensure end-to-end encryption, message authenticity, and data integrity. It will prioritize strong encryption through PGP public keys, authentication via digital signatures, a privacy-first design with no plaintext storage or metadata leaks, and user-friendly key management. By combining robust PGP encryption with a decentralized architecture and intuitive design, this platform will redefine secure communication for all users.",
+        "link": "#",
+        "image": "/Images/securechat.png",
+        "color": "bg-gray-400"
+      },
+      {
+        "title": "10.Open innovation",
+        "description": "Organizations need a platform that allows participants to bring their own ideas and provides the necessary support, resources, and collaboration opportunities to develop these ideas into impactful solutions, while ensuring fair recognition and ownership.",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "color": "bg-gray-400"
+      }
+
   ]
