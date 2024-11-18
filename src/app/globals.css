@@ -112,3 +112,7 @@
 .animate-time-change {
   animation: time-change 1s ease-in-out;
 }
+
+::-webkit-scrollbar{
+  display: none;
+}

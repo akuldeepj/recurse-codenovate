@@ -1,63 +1,63 @@
 [
     {
-      "title": "1.Digital Currency for College Transactions",
+      "title": "1. Digital Currency for College Transactions",
       "description": "Create a secure digital platform where students can convert real money into campus-specific points. These points can be used for transactions across campus services like dining, bookstores, events, and recreational facilities, with participating merchants accepting them seamlessly. The user-friendly app will enable students to manage balances, track transactions, and access exclusive offers, all while fostering a cashless, connected campus ecosystem.",
       "link": "#",
       "image": "https://images.unsplash.com/photo-1660139099083-03e0777ac6a7?q=80&w=2967&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "color": "bg-gray-100"
     },
     {
-      "title": "2.Cognitive Learning Platform for Personalized Education",
+      "title": "2. Cognitive Learning Platform for Personalized Education",
       "description": "A cognitive learning platform for personalized education is an AI-driven solution designed to adapt to each learner's unique needs, preferences, and pace. By leveraging advanced analytics and cognitive science principles, it provides tailored learning experiences, real-time feedback, and resource recommendations. The platform empowers educators with actionable insights into student performance, enabling them to address challenges and enhance outcomes. This innovative approach fosters engagement, closes knowledge gaps, and ensures every learner achieves their full potential.",
       "link": "#",
       "image": "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "color": "bg-gray-200"
     },
     {
-      "title": "3.Advanced Food Redistribution Network for Communities",
-      "description": "Every day, tons of food in urban areas go to waste due to expiration or surplus prepared meals. This not only has significant environmental consequences but also represents a missed opportunity to feed communities in need. An efficient system is required to connect food suppliers with food banks and non-profit organizations to ensure food is redistributed before it goes to waste.",
+      "title": "3. Advanced Food Redistribution Network for Communities",
+      "description": "Every day, tons of food in urban areas are wasted due to expiration or surplus prepared meals. This not only has significant environmental consequences but also represents a missed opportunity to feed communities in need. By leveraging crowdsourced data, create an efficient system to connect food suppliers with food banks and non-profit organizations. This approach ensures real-time updates and broad participation, facilitating the redistribution of food before it goes to waste.",
       "link": "#",
       "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "color": "bg-gray-300"
     },
     {
-      "title": "4.Student-Centered Anonymous Mental Health Support Platform",
-      "description": "Students face increasing mental health challenges due to academic pressure, social stress, and personal issues, but many hesitate to seek help due to stigma or fear of judgment. Existing mental health resources are often not tailored to the unique needs of students, and many lack the anonymity required to make students feel comfortable reaching out. As a result, there is a gap in accessible, confidential mental health support specifically designed for the student population. An innovative solution is expected to solve these mental health issues of the students, that has various ways to both prevent and solve the mental health issues of the students.",
+      "title": "4. Student-Centered Anonymous Mental Health Support Platform",
+      "description": "Students face growing mental health challenges from academic pressure, social stress, and personal issues, yet many hesitate to seek help due to stigma or fear of judgment. Existing resources often lack anonymity or are not tailored to students' needs, creating a gap in accessible, confidential support. An innovative solution is needed to address these challenges, offering both preventive and responsive strategies to support student mental health.",
       "link": "#",
       "image": "https://images.unsplash.com/photo-1541976844346-f18aeac57b06?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "color": "bg-gray-400"
     },
     {
-        "title": "5.Digital Time Capsule",
-        "description": "Transform scattered digital content—photos, text, audio, and videos—into a meaningful, organized narrative that captures its emotional context and significance, ensuring it can be preserved, selectively shared, and accessed by future generations. The goal is to create a platform that intelligently organizes these memories into coherent 'chapters of life', while addressing challenges like privacy, long-term preservation, and time-based sharing.",
+        "title": "5. Digital Time Capsule",
+        "description": "People often leave significant moments scattered across photos, text, audio, and videos. An intelligent platform is needed to compile this fragmented content into a cohesive, shareable narrative, organizing memories into meaningful 'life chapters.' It would capture emotional context, enable long-term preservation, and support time-based sharing, creating a lasting documentary of users' lives for future generations.",
         "link": "#",
         "image": "https://images.unsplash.com/photo-1607827447604-d9a8c439186e?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "color": "bg-gray-300"
       },
       {
-        "title": "6.Balance Your Bucks",
-        "description": "Balance Your Bucks addresses the challenge of managing expenses in a world where digital payments make spending effortless but often lead to unnecessary expenditures. Many individuals struggle to maintain financial balance, as essentials like healthcare and utilities require seamless payments, while non-essential expenses like dining and shopping frequently spiral out of control due to impulsive decisions. The need is to create a platform that ensures essential payments are prioritized while encouraging mindful spending on non-essentials without restricting financial freedom. This approach promotes better expense management and long-term savings while maintaining the ease and convenience of digital transactions.",
+        "title": "6. Balance Your Bucks",
+        "description": "Digital payments make spending effortless, but this often leads to impulsive and uncontrolled non-essential purchases. While essential expenses are typically managed, many individuals struggle to prioritize spending and maintain financial balance. The challenge is to find a way to manage essential payments effortlessly while curbing unnecessary expenditures, without restricting financial freedom.",
         "link": "#",
         "image": "https://images.unsplash.com/photo-1563986768711-b3bde3dc821e?q=80&w=2968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "color": "bg-gray-300"
       },
       {
-        "title": "7.Automated API Documentation Generator",
-        "description": "Maintaining accurate and up-to-date API documentation is a challenging and time-consuming task, often leading to inconsistencies between the documentation and the actual code. There is a need for a solution that can automatically track changes in the backend and generate updated documentation seamlessly, eliminating manual effort.This solution will ensure that documentation stays in sync with the backend, providing clarity and consistency while saving time. It will enhance collaboration and make the APIs more accessible and understandable for everyone.",
+        "title": "7. Automated API Documentation Generator",
+        "description": "Maintaining accurate, up-to-date API documentation is time-consuming and often leads to inconsistencies with the actual code. Manual updates can cause errors and hinder collaboration. There is a need for a solution that automatically tracks backend changes and generates updated documentation, ensuring it remains in sync with the code, saving time, and improving clarity, consistency, and accessibility.",
         "link": "#",
         "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "color": "bg-gray-300"
       },
       {
-        "title": "8.Ultra-Secure Chat Platform Using PGP",
-        "description": "In today's digital age, private communication faces constant threats from eavesdropping, data breaches, and surveillance, as existing chat platforms often lack robust security due to weak encryption or centralized architectures. This project aims to create a secure chat platform leveraging Pretty Good Privacy (PGP) to ensure end-to-end encryption, message authenticity, and data integrity. It will prioritize strong encryption through PGP public keys, authentication via digital signatures, a privacy-first design with no plaintext storage or metadata leaks, and user-friendly key management. By combining robust PGP encryption with a decentralized architecture and intuitive design, this platform will redefine secure communication for all users.",
+        "title": "8. Ultra-Secure Chat Platform Using asymmetric encryption",
+        "description": "In today's digital age, private communication faces constant threats from eavesdropping, data breaches, and surveillance, as many chat platforms lack robust security due to weak encryption or centralized architectures. This project aims to create a secure chat platform leveraging asymmetric encryption to ensure end-to-end encryption, message authenticity, and data integrity. It will prioritize strong encryption through asymmetric public keys, authentication via digital signatures, a privacy-first design with no plaintext storage or metadata leaks, and seamless multi-device access. By combining robust encryption with a decentralized architecture and intuitive design, this platform will redefine secure communication while ensuring convenient access for users across multiple devices.",
         "link": "#",
         "image": "/Images/securechat.png",
         "color": "bg-gray-400"
       },
       {
-        "title": "9.Open innovation",
-        "description": "Organizations need a platform that allows participants to bring their own ideas and provides the necessary support, resources, and collaboration opportunities to develop these ideas into impactful solutions, while ensuring fair recognition and ownership.",
+        "title": "9. Open innovation",
+        "description": "Participants are open to bring their own problem statement and a solution. Make sure that the problem statement and its significance is clearly explained in the idea submission (PPT).",
         "link": "#",
         "image": "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "color": "bg-gray-400"
