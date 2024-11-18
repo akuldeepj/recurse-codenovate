@@ -65,13 +65,13 @@ export  function AppleCardsCarousel({ items = [], className = "" }: { items?: It
       <AnimatePresence>
         {selectedItem && (
           <Dialog open={!!selectedItem} onOpenChange={() => setSelectedItem(null)}>
-            <DialogContent className="sm:max-w-[500px] p-0 overflow-hidden border-none bg-transparent">
+            <DialogContent className="sm:max-w-[500px] p-0 overflow-y-auto border-none max-h-[90vh] bg-transparent fixed-size">
               <motion.div
                 initial={{ opacity: 0.3, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.1 }}
-                className="p-6 rounded-lg shadow-lg bg-white dark:bg-gray-900 w-full"
+                className="p-6 rounded-lg shadow-lg bg-white dark:bg-gray-900 w-full h-full"
               >
                 <DialogHeader>
                   <DialogTitle className="text-2xl font-bold text-gray-800 dark:text-white">
