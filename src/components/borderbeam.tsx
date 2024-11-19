@@ -11,21 +11,24 @@ export function BorderBeamDemo() {
   return (
     <div className="flex h-full w-screen flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-black md:shadow-xl">
       <Link href={"/"}>
+        {/* Image for dark mode */}
         <Image 
           src='/Images/recurse.png'
           alt="Recurse"
           width={150}
           height={150}
-          className="dark:block hidden mx-2 mt-6"
+          className="dark:block hidden md:hidden mx-2 mt-6"
         />
+        {/* Image for light mode */}
         <Image 
           src='/Images/recurse-black.png'
           alt="Recurse"
           width={150}
           height={150}
-          className="dark:hidden block mx-2 mt-6"
+          className="dark:hidden block md:hidden mx-2 mt-6"
         />
       </Link>
+
       {/* <h1 className="text-4xl font-bold text-center mt-8">RECURSE PRESENTS</h1> */}
       <div className="relative rounded-2xl p-2">
         <Image
