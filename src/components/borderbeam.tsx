@@ -31,15 +31,15 @@ export function BorderBeamDemo() {
         <Image
           src="/Banner.png"
           alt="Hero Image"
-          width={1200}
-          height={675}
+          width={1400}
+          height={800}
           className="hidden md:w-[80vw] rounded-[inherit] border object-contain shadow-lg dark:block w-[90vw] mob:my-5"
         />
         <Image
           src="/Banner1.png"
           alt="Hero Image"
-          width={1200}
-          height={675}
+          width={1400}
+          height={800}
           className="dark:hidden md:w-[80vw] rounded-[inherit] border object-contain shadow-lg block w-[90vw] mob:my-5"
         />
         <BorderBeam size={350} duration={12} delay={9} className="mob:hidden" />
