@@ -9,7 +9,7 @@ import data from "./data.json";
 
 export function BorderBeamDemo() {
   return (
-    <div className="flex h-full w-screen flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-black md:shadow-xl">
+    <div className="flex mt-10 h-full w-screen flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-black md:shadow-xl">
       {/* <Link href={"/"}>
         <Image 
           src='/Images/recurse.png'
