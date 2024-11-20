@@ -10,8 +10,7 @@ import data from "./data.json";
 export function BorderBeamDemo() {
   return (
     <div className="flex h-full w-screen flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-black md:shadow-xl">
-      <Link href={"/"}>
-        {/* Image for dark mode */}
+      {/* <Link href={"/"}>
         <Image 
           src='/Images/recurse.png'
           alt="Recurse"
@@ -19,7 +18,6 @@ export function BorderBeamDemo() {
           height={150}
           className="dark:block hidden md:hidden mx-2 mt-6"
         />
-        {/* Image for light mode */}
         <Image 
           src='/Images/recurse-black.png'
           alt="Recurse"
@@ -27,7 +25,7 @@ export function BorderBeamDemo() {
           height={150}
           className="dark:hidden block md:hidden mx-2 mt-6"
         />
-      </Link>
+      </Link> */}
 
       {/* <h1 className="text-4xl font-bold text-center mt-8">RECURSE PRESENTS</h1> */}
       <div className="relative rounded-2xl p-2">
