@@ -35,7 +35,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-300">
-            Online - 18th Nov, 2024 to 25th Nov, 2024
+            Online - 18th Nov, 2024 to 25 Nov 24
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -61,7 +61,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-300">
-            Online - 26th Nov, 2024
+            Online - 26th Nov, 2024 evening
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
