@@ -6,7 +6,7 @@ const Scene = dynamic(() => import('@/components/Scene'), {
 
 export default function Home() {
   return (
-    <main className="relative h-screen"> 
+    <main className="relative h-screen "> 
         <Scene />
     </main>
   );
