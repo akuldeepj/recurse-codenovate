@@ -94,7 +94,7 @@ export default function SignIn() {
         </CardContent>
         <CardFooter>
           <p className="text-sm text-center text-gray-600 dark:text-gray-400 w-full">
-            Don't have an account? Contact your administrator
+            Don&apos;t have an account? Contact your administrator
           </p>
         </CardFooter>
       </Card>
