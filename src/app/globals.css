@@ -116,3 +116,7 @@
 ::-webkit-scrollbar{
   display: none;
 }
+.timer-container {
+  font-size: 1.5rem; /* Adjust the timer styling here */
+  color: #333;
+}
