@@ -3,7 +3,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcrypt";
 import clientPromise from "@/lib/mongodb";
 
-export const authOptions = {
+const authOptions = {
   session: {
     strategy: "jwt",
   },
@@ -56,4 +56,7 @@ export const authOptions = {
 };
 
 const handler = NextAuth(authOptions);
-export { handler as GET, handler as POST };
+
+// Properly export the handler for the GET and POST HTTP methods
+export const GET = handler;
+export const POST = handler;
