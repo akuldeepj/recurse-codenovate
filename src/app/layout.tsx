@@ -8,6 +8,7 @@ import { Analytics } from "@vercel/analytics/react"
 import Header from "@/components/header";
 import FloatingDockBar from "@/components/dock";
 import Head from "next/head";
+import AuthProvider from "@/lib/AuthProvider"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -49,13 +50,15 @@ export default function RootLayout({
       <body
         className={`${myFont.className} antialiased bg-gray-50 text-gray-950 relative dark:bg-black dark:text-gray-50 dark:text-opacity-90`}
       >
+        <AuthProvider>
         <ThemeProvider enableSystem={true} attribute="class">
           <Header />
           <FloatingDockBar />
             {children}
             <Analytics />
             <FooterComponent />
-          </ThemeProvider>     
+          </ThemeProvider>  
+          </AuthProvider>   
           </body>
     </html>
   );
