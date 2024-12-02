@@ -17,17 +17,11 @@ export default function FooterComponent() {
               <img src="/codenovate.png" alt="Logo" className="w-8 h-8" />
                 <span className="font-semibold">Codenovate</span>
               </div>
-              {/* <p className="text-sm text-gray-600 dark:text-gray-400">All rights reserved</p> */}
               <p className="text-sm text-gray-600 dark:text-gray-400 italic font-semibold">
                 A <Link className="underline text-primary" href={"https://www.instagram.com/recurse.official"} target='_blank'>Recurse</Link> initiative
               </p>
           </div>
           <div className="grid grid-cols-2 gap-8">
-            {/* <div className="space-y-4">
-              <Link href="#" className="block hover:text-gray-600 dark:hover:text-gray-300">Pricing</Link>
-              <Link href="#" className="block hover:text-gray-600 dark:hover:text-gray-300">Blog</Link>
-              <Link href="#" className="block hover:text-gray-600 dark:hover:text-gray-300">Contact</Link>
-            </div> */}
             <div className="space-y-4">
               <Link href="/ps" className="block hover:text-gray-600 dark:hover:text-gray-300">Problem Statements</Link>
                 <Link href="/#faq" className="block hover:text-gray-600 dark:hover:text-gray-300">FAQ</Link>
