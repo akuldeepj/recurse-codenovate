@@ -1,7 +1,6 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import faqData from "./faq.json"
 
-// Define the type for the FAQ items
 interface FAQItem {
   id: string
   question: string
