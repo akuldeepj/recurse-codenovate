@@ -11,7 +11,6 @@ export default function Protected() {
   const router = useRouter()
   const [saveStatus, setSaveStatus] = useState<string | null>(null)
 
-  // Redirect to sign-in page if not authenticated
   useEffect(() => {
     if (status === "unauthenticated") {
       router.push("/auth/signin")

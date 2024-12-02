@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import AnimatedGradientText from "@/components/ui/animated-gradient-text";
 import { ChevronDown, ChevronRight } from 'lucide-react';
 import Link from "next/link";
-import { AppleCardsCarousel } from "./apple-cards-carousel";
+import { AppleCardsCarousel } from "./cards-grid";
 import data from "./data.json";
 
 export function BorderBeamDemo() {
