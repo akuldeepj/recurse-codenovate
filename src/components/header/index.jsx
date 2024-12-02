@@ -22,7 +22,6 @@ export default function Home() {
     }
   }, [pathname, isActive])
 
-  // Function to close nav that we'll pass to HeaderNav
   const closeNav = () => {
     setIsActive(false)
   }
@@ -42,7 +41,7 @@ export default function Home() {
         </div>
       </div>
       <AnimatePresence mode="wait">
-        {isActive && <Nav closeNav={closeNav} />}  {/* Pass closeNav function */}
+        {isActive && <Nav closeNav={closeNav} />} 
       </AnimatePresence>
     </>
   )

@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import { menuSlide } from "../anim";
 import Link from "./Link";
 import Curve from "./Curve";
-import Footer from "./Footer";
 import { PowerIcon } from "@heroicons/react/24/solid";
 
 const navItems = [
@@ -28,14 +27,13 @@ const navItems = [
   },
 ];
 
-export default function HeaderNav({ closeNav }) {  // Add closeNav prop
+export default function HeaderNav({ closeNav }) {  
   const pathname = usePathname();
   const [selectedIndicator, setSelectedIndicator] = useState(pathname);
 
-  // Function to handle both selection and nav closing
   const handleNavigation = (href) => {
     setSelectedIndicator(href);
-    closeNav(); // Close the nav when a link is clicked
+    closeNav(); 
   };
 
   return (
@@ -72,12 +70,11 @@ export default function HeaderNav({ closeNav }) {  // Add closeNav prop
                 key={index}
                 data={{ ...data, index }}
                 isActive={selectedIndicator == data.href}
-                setSelectedIndicator={handleNavigation}  // Use new handler
+                setSelectedIndicator={handleNavigation} 
               ></Link>
             );
           })}
         </div>
-        {/* <Footer /> */}
       </div>
       <Curve />
     </motion.div>
