@@ -7,8 +7,6 @@ import { GridPatternLinearGradient } from "@/components/ui/hero";
 import { TimelineDemo } from "@/components/timeline";
 import { WobbleCardDemo } from "@/components/rules";
 import { AccordionDemo } from "@/components/faq";
-import images from "./images.json";
-import BoxRevealDemo from "@/components/test";
 import HackathonLanding from "@/components/hackathon-landing";
 import CountdownTimer from '@/components/Timer';
 import { AnimatedSideAlertNotification } from "@/components/animated-side-alert-notification";
@@ -48,8 +46,7 @@ export default function Home() {
       <AnimatePresence mode='wait'>
       {isLoading && <Preloader />}
       </AnimatePresence>
-      {/* <BoxRevealDemo /> */}
-      {/* <AnimatedSideAlertNotification />*/}
+      <AnimatedSideAlertNotification />
       <HackathonLanding />
       {/* <GridPatternLinearGradient /> */}
       <TimelineDemo />
